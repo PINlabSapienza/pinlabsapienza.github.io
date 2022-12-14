@@ -1,5 +1,7 @@
-# Site Settings
-baseurl: "/Grape-Academic-Theme"
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
 
 # Features Setting
 # Turn subpages on or off
@@ -16,14 +18,14 @@ tagline: A jekyll theme for academic portfolios
 description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
 author: Christoph Jabs (chrjabs)
 twitter:
-  username: chrjabs
+  username: pinlab
   card: A jekyll theme for academic portfolios
 logo: /assets/img/smile.png
 social:
-  name: Christoph Jabs
+  name: PINlab
   links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
+    - https://twitter.com/SapienzaPINlab
+    - https://github.com/PINlabSapienza
 locale: en_GB
 
 # Page Settings

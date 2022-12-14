@@ -1,75 +1,82 @@
-# URL of the Site
-url: ''
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
-
-# Features Setting
-# Turn subpages on or off
-publications: True
-presentations: True
-blog: True
-
-# Language of the website
+# Site Settings
 lang: en
+title: Bulma Clean Theme
+tagline: Bulma Clean Theme
+email: your-email@domain.com
+description: >
+  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
+baseurl: "/bulma-clean-theme"
+url: "https://www.csrhymes.com"
+permalink: pretty
+#favicon: /path/to/favicon.png
+gh_sponsor: chrisrhymes
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
 
-# Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
-description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Christoph Jabs (chrjabs)
-twitter:
-  username: pinlab
-  card: A jekyll theme for academic portfolios
-logo: /assets/img/smile.png
-social:
-  name: PINlab
-  links:
-    - https://twitter.com/SapienzaPINlab
-    - https://github.com/PINlabSapienza
-locale: en_GB
-
-# Page Settings
-theme_settings:
-  title: Grape Academic Theme
-
-  experience_title: EXPERIENCE
-  interests_title: RESEARCH INTERESTS
-  skills_title: SKILLS
-  awards_title: AWARDS
-  projects_title: PROJECTS
-  recentpubs_title: RECENT PUBLICATIONS
-
-# Pagination
 paginate: 5
-paginate_path: "blog/page:num"
+paginate_path: "/blog/page:num"
 
-# Build Settings
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname: csrhymes
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
 sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
-bootstrap:
-  assets: true
+  style: compressed
+  source_dir: _sass
 
-# Bibliography settings
-scholar:
-  bibliography: publications.bib
-  bibliography_template: pubstemplate
-  style: apa
-  locale: en
-  last_name: Me
-  first_name: [Myself, M.]
-  sort_by: year,month
-  order: descending,ascending
+#google_analytics: UA-code-here
 
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "C.S. Rhymes"
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: true
 
-academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
-fontawesome:
-  version: "5.15.4"
-  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
-jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu
+
+collections:
+  products: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false

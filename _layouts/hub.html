@@ -17,7 +17,9 @@ layout: page
       <section class="links">
         <h2>Links</h2>
         {% if page.citekey %}
-          <!-- {% nocite page.citekey %} -->
+          {% raw %}
+          {% nocite page.citekey %}
+          {% endraw %}
           {% bibliography --cited --template pubhublinkstemplate %}
         {% else %}
           <ol class="link-list">

@@ -3,57 +3,51 @@
 References
 ==========
 
-@inproceedings{DBLP:conf/sat/FuM06,
-  author      = {Zhaohui Fu and
-                 Sharad Malik},
-  editor      = {Armin Biere and
-                 Carla P. Gomes},
-  title       = {On Solving the Partial {MAX-SAT} Problem},
-  booktitle   = {Theory and Applications of Satisfiability Testing --- {SAT} 2006, 9th
-                 International Conference, Seattle, WA, USA, August 12--15, 2006, Proceedings},
-  series      = {Lecture Notes in Computer Science},
-  volume      = {4121},
-  pages       = {252--265},
-  publisher   = {Springer},
-  year        = {2006},
-  url         = {https://doi.org/10.1007/11814948_25},
-  doi         = {10.1007/11814948_25},
-  bibtex_show = true
-}
+@article{munjal2023query,
+  title={Query-guided networks for few-shot fine-grained classification and person search},
+  author={Munjal, Bharti and Flaborea, Alessandro and Amin, Sikandar and Tombari, Federico and Galasso, Fabio},
+  journal={Pattern Recognition},
+  volume={133},
+  pages={109049},
+  year={2023},
+  publisher={Elsevier},
+  doi         = {https://doi.org/10.1016/j.artmed.2022.102454},
+  arxiv       = {2209.10250},
+  abstract    = { Few-shot fine-grained classification and person search appear as distinct tasks and literature has treated them separately. But a closer look unveils important similarities: both tasks target categories that can only be discriminated by specific object details; and the relevant models should generalize to new categories, not seen during training. We propose a novel unified Query-Guided Network (QGN) applicable to both tasks. QGN consists of a Query-guided Siamese-Squeeze-and-Excitation subnetwork which re-weights both the query and gallery features across all network layers, a Query-guided Region Proposal subnetwork for query-specific localisation, and a Query-guided Similarity subnetwork for metric learning. QGN improves on a few recent few-shot fine-grained datasets, outperforming other techniques on CUB by a large margin. QGN also performs competitively on the person search CUHK-SYSU and PRW datasets, where we perform in-depth analysis.
 
-@book{ruby,
-  title       = {The Ruby Programming Language},
-  author      = {Flanagan, David and Matsumoto, Yukihiro},
-  year        = {2008},
-  publisher   = {O'Reilly Media},
-  bibtex_show = true
-}
 
-@article{test,
-  title       = {An Article},
-  abbr        = {Test},
-  author      = {Me, Myself and Others, Them},
-  journal     = {Some important journal},
-  year        = {2010},
-  publisher   = {O'Reilly Media},
-  html        = {https://www.google.com},
-  pdf         = {https://www.google.com},
-  code        = {https://www.google.com},
-  slides      = {https://www.google.com},
-  poster      = {https://www.google.com},
-  url         = {https://www.google.com},
-  doi         = {https://www.google.com},
-  arxiv       = {2207.09703},
-  supp        = {https://www.google.com},
-  blog        = {https://www.google.com},
-  website     = {https://www.google.com},
-  latex_src   = {https://www.google.com},
-  abstract    = { Iusto distinctio qui perferendis eum et quaerat modi non. Eum est molestiae eum iste maxime fugit facere. Voluptatem quaerat ipsam mollitia velit error nesciunt molestiae exercitationem. Dolorem repellat officia aspernatur suscipit. Nulla fugiat voluptas harum ipsam odit sed iure.<br>
-                 Et ea ullam nisi id debitis. Voluptas error sit facere nihil excepturi voluptas. Ipsum aut iusto autem et sit. Cum necessitatibus exercitationem harum dolores beatae expedita. Sit sed impedit numquam. Provident reiciendis velit quibusdam autem.<br>
-                 Nulla dolorum ad et labore debitis ea labore. Quis eum reiciendis expedita. Sit in eum eveniet. Tempore necessitatibus dolor consequatur minima. Doloribus cumque reprehenderit minus autem tenetur molestias facilis.<br>
-                 Saepe nesciunt quasi itaque ipsam repudiandae. Distinctio non officiis iure. Ullam iure officia odit suscipit voluptas commodi facere quibusdam. Quia quasi sed ad voluptates voluptatum. Quasi temporibus fugit non molestiae dignissimos numquam.<br>
-                 Dolorem ducimus et rerum dolorem. Quia molestiae qui qui. Omnis modi quia corrupti aut nobis voluptatem eius ut.
                  },
   bibtex_show = true
 }
+  %html        = {https://www.google.com},
+  %pdf         = {https://www.google.com},
+  %code        = {https://www.google.com},
+  %slides      = {https://www.google.com},
+  %poster      = {https://www.google.com},
+  %url         = {https://www.google.com},
+  %supp        = {https://www.google.com},
+  %blog        = {https://www.google.com},
+  %website     = {https://www.google.com},
+  %latex_src   = {https://www.google.com},
 
+}
+
+@article{prenkaj2022self,
+  title={A self-supervised algorithm to detect signs of social isolation in the elderly from daily activity sequences},
+  author={Prenkaj, Bardh and Aragona, Dario and Flaborea, Alessandro and Galasso, Fabio and Gravina, Saverio and Podo, Luca and Reda, Emilia and Velardi, Paola},
+  journal={Artificial Intelligence in Medicine},
+  pages={102454},
+  year={2022},
+  publisher={Elsevier},
+  doi         = {https://doi.org/10.1016/j.artmed.2022.102454},
+  abstract    = { Considering the increasing aging of the population, multi-device monitoring of the activities of daily living (ADL) of older people becomes crucial to support independent living and early detection of symptoms of mental illnesses, such as depression and Alzheimer’s disease. Anomalies can anticipate the diagnosis of these pathologies in the patient’s normal behavior, such as reduced hygiene, changes in sleep habits, and fewer social interactions. These abnormalities are often subtle and hard to detect. Especially using non-intrusive monitoring devices might cause anomaly detectors to generate false alarms or ignore relevant clues. This limitation may hinder their usage by caregivers. Furthermore, the notion of abnormality here is context and patient-dependent, thus requiring untrained approaches.
+
+To reduce these problems, we propose a self-supervised model for multi-sensor time series signals based on Hyperbolic uncertainty for Anomaly Detection, which we dub HypAD. HypAD estimates uncertainty end-to-end, thanks to hyperbolic neural networks, and integrates it into the ”classic” notion of reconstruction loss in anomaly detection. Based on hyperbolic uncertainty, HypAD introduces the principle of a detectable anomaly. HypAD assesses whether it is sure about the input signal and fails to reconstruct it because it is anomalous or whether the high reconstruction loss is due to the model uncertainty, e.g., a complex but regular signal (cf. this parallels the residual model error upon training).
+
+The proposed solution has been incorporated into an end-to-end ADL monitoring system for elderly patients in retirement homes, developed within a funded project leveraging an interdisciplinary consortium of computer scientists, engineers, and geriatricians. Healthcare professionals were involved in the design and verification process to foster trust in the system. In addition, the system has been equipped with explainability features.
+
+},
+  bibtex_show = true
+}
+
+}

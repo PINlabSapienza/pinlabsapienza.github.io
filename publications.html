@@ -110,8 +110,6 @@
   <!-- Hidden abstract block -->
     <div class="abstract hidden">
       <p> Few-shot fine-grained classification and person search appear as distinct tasks and literature has treated them separately. But a closer look unveils important similarities: both tasks target categories that can only be discriminated by specific object details; and the relevant models should generalize to new categories, not seen during training. We propose a novel unified Query-Guided Network (QGN) applicable to both tasks. QGN consists of a Query-guided Siamese-Squeeze-and-Excitation subnetwork which re-weights both the query and gallery features across all network layers, a Query-guided Region Proposal subnetwork for query-specific localisation, and a Query-guided Similarity subnetwork for metric learning. QGN improves on a few recent few-shot fine-grained datasets, outperforming other techniques on CUB by a large margin. QGN also performs competitively on the person search CUHK-SYSU and PRW datasets, where we perform in-depth analysis.
-
-
                  </p>
     </div><!-- Hidden bibtex block -->
     <div class="bibtex hidden">
@@ -391,12 +389,13 @@ The proposed solution has been incorporated into an end-to-end ADL monitoring sy
       [<a href="http://arxiv.org/abs/2110.04573" class="btn btn-sm z-depth-0" role="button">arXiv</a>]
       [<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>]
       [<a href="https://openaccess.thecvf.com/content/ICCV2021/html/Sofianos_Space-Time-Separable_Graph_Convolutional_Network_for_Pose_Forecasting_ICCV_2021_paper.html" class="btn btn-sm z-depth-0" role="button">HTML</a>]
+      [<a href="https://github.com/FraLuca/STSGCN" class="btn btn-sm z-depth-0" role="button">Code</a>]
   </div>
 
   <!-- Hidden abstract block -->
     <div class="abstract hidden">
       <p> Human pose forecasting is a complex structured-data sequence-modelling task, which has received increasing attention, also due to numerous potential applications. Research has mainly addressed the temporal dimension as time series and the interaction of human body joints with a kinematic tree or by a graph. This has decoupled the two aspects and leveraged progress from the relevant fields, but it has also limited the understanding of the complex structural joint spatio-temporal dynamics of the human pose. Here we propose a novel Space-Time-Separable Graph Convolutional Network (STS-GCN) for pose forecasting. For the first time, STS-GCN models the human pose dynamics only with a graph convolutional network (GCN), including the temporal evolution and the spatial joint interaction within a single-graph framework, which allows the cross-talk of motion and spatial correlations. Concurrently, STS-GCN is the first space-time-separable GCN: the space-time graph connectivity is factored into space and time affinity matrices, which bottlenecks the space-time cross-talk, while enabling full joint-joint and time-time correlations. Both affinity matrices are learnt end-to-end, which results in connections substantially deviating from the standard kinematic tree and the linear-time time series. In experimental evaluation on three complex, recent and large-scale benchmarks, Human3.6M [Ionescu et al. TPAMI’14], AMASS [Mahmood et al. ICCV’19] and 3DPW [Von Marcard et al. ECCV’18], STS-GCN outperforms the state-of-the-art, surpassing the current best technique [Mao et al. ECCV’20] by over 32% in average at the most difficult long-term predictions, while only requiring 1.7% of its parameters. We explain the results qualitatively and illustrate the graph interactions by the factored joint-joint and time-time learnt graph connections. Our source code is available at https://github.com/FraLuca/STSGCN
-  </p>
+    </p>
     </div><!-- Hidden bibtex block -->
     <div class="bibtex hidden">
       <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Sofianos_2021_ICCV</span><span class="p">,</span>

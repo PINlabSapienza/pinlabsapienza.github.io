@@ -11,6 +11,7 @@ layout: page
                             <img src= "{{ person.image }}" alt="" width=200 height=200>
                         </div>
                         <em class="name">{{person.name | markdownify}}</em>
+                        <p class="status">{{person.status}}</p>
                         <ul id="icons">
                             {% assign social = person.social %}
                             {% if social.webpage %}

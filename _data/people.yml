@@ -1,7 +1,7 @@
 - people:
   image: \assets\img\smile.png
   name: Alessandro Flaborea
-  
+  status: PhD Student
   # experience: # Remove for hiding the experience section
   #   - start: 2017-05-03
   #     end: 2018-05-06
@@ -37,7 +37,7 @@
 - people:
   image: \assets\img\smile.png
   name: Edoardo de matteis
-  
+  status: PhD Student
   # experience: # Remove for hiding the experience section
   #   - start: 2017-05-03
   #     end: 2018-05-06

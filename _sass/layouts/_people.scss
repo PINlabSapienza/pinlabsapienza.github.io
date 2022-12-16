@@ -1,0 +1,59 @@
+#people {
+    @extend %page-padding;
+    .bg{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: 105px;
+        left:0%;
+        height: 95px;
+        background-color: $theme-dark;
+    }
+    h1.title{
+        color:#fff;
+        margin-bottom: 30px;
+    }
+    .wrapper {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: auto;
+        .grid-cell{
+            .name {
+                font-weight: bolder;
+                font-style: normal;
+            }
+            .img-wrap {
+                img {
+                    width:200px;
+                    height:200px;
+                }
+            }
+            .event {
+            }
+            .date {
+                font-style: normal;
+                margin-left: 0.5rem;
+            }
+         }
+      }
+      
+    ol.people-list{
+        list-style-type: none;
+        li {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            .name {
+                font-weight: bolder;
+                font-style: normal;
+            }
+            .event {
+            }
+            .date {
+                font-style: normal;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+}

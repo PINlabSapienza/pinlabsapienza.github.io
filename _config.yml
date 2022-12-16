@@ -6,6 +6,7 @@ baseurl:
 publications: True
 presentations: True
 blog: True
+people: True
 
 # Language of the website
 lang: en

@@ -1,0 +1,70 @@
+- people:
+  image: \assets\img\smile.png
+  name: Alessandro Flaborea
+  
+  # experience: # Remove for hiding the experience section
+  #   - start: 2017-05-03
+  #     end: 2018-05-06
+  #     experience : company name, title
+  # interests: # Remove for hiding the interests section
+  #   - Computer Vision
+  #   - Machine Learning
+  # skills: # Remove for hiding the skills section
+  #   - skill: HTML5 & CSS
+  #     value: 85  # Percent value
+  social:
+    webpage: https://alessandroflaborea.me/
+    email: flaborea.alessandro@gmail.com # Full email address, e.g. "sample@google.com"
+    orcid: 
+    scholar: HHDHIVoAAAAJ
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin: https://www.linkedin.com/in/alessandro-flaborea/ # Full URL 
+    github: aleflabo
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: AlessandroFlabo
+    youtube:
+    facebook:
+    instagram: aleflabo
+  # awards: # Remove for hiding the awards section
+  #   - "This is an award I got"
+
+- people:
+  image: \assets\img\smile.png
+  name: Edoardo de matteis
+  
+  # experience: # Remove for hiding the experience section
+  #   - start: 2017-05-03
+  #     end: 2018-05-06
+  #     experience : company name, title
+  # interests: # Remove for hiding the interests section
+  #   - Computer Vision
+  #   - Machine Learning
+  # skills: # Remove for hiding the skills section
+  #   - skill: HTML5 & CSS
+  #     value: 85  # Percent value
+  social:
+    webpage: https://www.youtube.com/watch?v=bUcG7vd_7aQ
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  # Full URL 
+    github: 
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram: 
+  # awards: # Remove for hiding the awards section
+  #   - "This is an award I got"

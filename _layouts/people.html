@@ -8,7 +8,7 @@ layout: page
             {% for person in site.data.people %}
                     <div class="grid-cell">
                         <div class="img-wrap">
-                            <img src= "{{ person.image }}" alt="" width=200 height=200>
+                            <img src= "{{ person.image }}" alt="" width=150 height=150>
                         </div>
                         <em class="name">{{person.name | markdownify}}</em>
                         <p class="status">{{person.status}}</p>
@@ -16,7 +16,7 @@ layout: page
                             {% assign social = person.social %}
                             {% if social.webpage %}
                             <li>
-                            <a href="{{ social.webpage}}" target="_blank" title="Email">
+                            <a href="{{ social.webpage}}" target="_blank" title="Webpage">
                                 <i class="	fas fa-globe-europe"></i>
                             </a>
                             </li>

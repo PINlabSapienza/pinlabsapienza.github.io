@@ -17,7 +17,7 @@
     .wrapper {
         list-style-type: none;
         display: grid;
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns: repeat(3 , 1fr);
         grid-template-rows: auto;
         .grid-cell{
             .name {
@@ -26,8 +26,8 @@
             }
             .img-wrap {
                 img {
-                    width: 200px;
-                    height: 200px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
             .event {

@@ -2,19 +2,10 @@
   image: \assets\img\smile.png
   name: Alessandro Flaborea
   status: PhD Student
-  # experience: # Remove for hiding the experience section
-  #   - start: 2017-05-03
-  #     end: 2018-05-06
-  #     experience : company name, title
-  # interests: # Remove for hiding the interests section
-  #   - Computer Vision
-  #   - Machine Learning
-  # skills: # Remove for hiding the skills section
-  #   - skill: HTML5 & CSS
-  #     value: 85  # Percent value
+
   social:
     webpage: https://alessandroflaborea.me/
-    email: flaborea.alessandro@gmail.com # Full email address, e.g. "sample@google.com"
+    email:  # Full email address, e.g. "sample@google.com"
     orcid: 
     scholar: HHDHIVoAAAAJ
     publons: 
@@ -31,23 +22,13 @@
     youtube:
     facebook:
     instagram: aleflabo
-  # awards: # Remove for hiding the awards section
-  #   - "This is an award I got"
+
 
 - people:
   image: \assets\img\smile.png
-  name: Edoardo de matteis
+  name: Edoardo De Matteis
   status: PhD Student
-  # experience: # Remove for hiding the experience section
-  #   - start: 2017-05-03
-  #     end: 2018-05-06
-  #     experience : company name, title
-  # interests: # Remove for hiding the interests section
-  #   - Computer Vision
-  #   - Machine Learning
-  # skills: # Remove for hiding the skills section
-  #   - skill: HTML5 & CSS
-  #     value: 85  # Percent value
+
   social:
     webpage: https://www.youtube.com/watch?v=bUcG7vd_7aQ
     orcid: 
@@ -66,5 +47,53 @@
     youtube:
     facebook:
     instagram: 
-  # awards: # Remove for hiding the awards section
-  #   - "This is an award I got"
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Paolo Mandica
+  status: PhD Student
+
+  social:
+    webpage: https://paolomandica.github.io/
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/paolo-mandica/ 
+    github: paolomandica
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Stefano D’Arrigo
+  status: PhD Student
+
+  social:
+    webpage: https://phd.uniroma1.it/web/STEFANO-D'ARRIGO_nP1960500_IT.aspx
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/stefano-d-arrigo-6b084019a 
+    github: stdrr
+    gitlab: stdrr
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:

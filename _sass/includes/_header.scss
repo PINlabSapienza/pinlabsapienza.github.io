@@ -3,10 +3,10 @@ header{
     @extend %page-padding;
     nav{
         white-space: nowrap;
-        display:block!important;
-        overflow-x: scroll;
+        // display:block!important;
+        overflow-x: hidden;
         overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
+        // -webkit-overflow-scrolling: touch;
         ul{
             li{
                 position: relative;

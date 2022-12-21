@@ -1,6 +1,7 @@
 image: assets/img/icon.jpg
-username: PINlab
-description: A group of researchers in the field of computer vision and machine learning. We're working on this site to share our research and projects with the world. Stay tuned!
+username: Perception and Intelligence Laboratory (PINlab)
+description: Department of Computer Science 
+description2: Sapienza University of Rome, Italy
 webpage: https://github.com/PINlabSapienza
 # experience: # Remove for hiding the experience section
 #   - start: 2017-05-03

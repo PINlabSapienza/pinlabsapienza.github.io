@@ -12,8 +12,9 @@ people: True
 lang: en
 
 # Search engine optimization settings
-title: PINlab
-tagline: Perception and Intelligence Lab
+title: Perception and Intelligence Laboratory (PINlab) // Department of Computer Science // Sapienza University of Rome, Italy
+tagline: Perception and Intelligence Laboratory (PINlab) // Department of Computer Science // Sapienza University of Rome, Italy
+
 description: A group of researchers in the field of computer vision and machine learning. We're working on this site to share our research and projects with the world. Stay tuned!
 author: PINlab
 twitter:

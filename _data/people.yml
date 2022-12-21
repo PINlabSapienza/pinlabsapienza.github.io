@@ -1,5 +1,30 @@
 - people:
-  image: \assets\img\smile.png
+  image: \assets\img\smile.png # do not change
+  name: Fabio Galasso
+  status: Head of the lab
+
+  social:
+    webpage: https://fgalasso.bitbucket.io/
+    orcid: 0000-0003-1875-7813
+    scholar: 2gSuGBEAAAAJ
+    publons: 
+    research_gate: Fabio-Galasso-2137045840
+    dblp:  https://dblp.org/pid/48/3897.html
+    semantic_scholar:  https://www.semanticscholar.org/author/Fabio-Galasso/1787725
+    linkedin: https://www.linkedin.com/in/fabio-galasso-61141b32 
+    github: fgalasso
+    gitlab: fgalasso
+    bitbucket: fgalasso
+    google_plus:
+    mastodon: 
+    twitter: GalassoFab10
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\aleflabo.png
   name: Alessandro Flaborea
   status: PhD Student
 
@@ -90,6 +115,81 @@
     linkedin:  https://www.linkedin.com/in/stefano-d-arrigo-6b084019a 
     github: stdrr
     gitlab: stdrr
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Daniele Trappolini 
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/daniele-trappolini-5789761b6/
+    github: dan-trappolini
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Laura Laurenti
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/lauralaurenti/
+    github: lauralaurenti
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    Instagram:
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Luca Scofano
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 0000-0002-0392-7464
+    scholar: https://scholar.google.com/citations?user=2nLw-cgAAAAJ&hl=it&oi=ao
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/luca-scofano-229793139/
+    github: L-Scofano
+    gitlab: 
     bitbucket: 
     google_plus:
     mastodon: 

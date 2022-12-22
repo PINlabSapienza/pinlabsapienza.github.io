@@ -22,12 +22,20 @@
 a.navbar-item:hover,
 .navbar-link:hover {
     background-color: rgba($color: #fff, $alpha: 0.25) !important;
+<<<<<<< HEAD
     color: grey !important;
+=======
+    color: #822433 !important;
+>>>>>>> 26d9c6514b31e22329d5191a35847c35ae78d9e8
 }
 
 a.navbar-item.is-active {
     background-color: rgba($color: #fff, $alpha: 0.25) !important;
+<<<<<<< HEAD
     color: grey !important;
+=======
+    color: #822433 !important;
+>>>>>>> 26d9c6514b31e22329d5191a35847c35ae78d9e8
 
     &:hover {
         background-color: rgba($color: #fff, $alpha: 0.25) !important;

@@ -50,25 +50,25 @@
 
 
 - people:
-  image: \assets\img\smile.png
-  name: Edoardo De Matteis
+  image: \assets\img\smile.png  # do not change
+  name: Edoardo de matteis
   status: PhD Student
 
   social:
     webpage: https://www.youtube.com/watch?v=bUcG7vd_7aQ
-    orcid: 
+    orcid: 0000-0002-0796-035X
     scholar: 
     publons: 
     research_gate: 
     dblp:  # Full URL
     semantic_scholar:  # Full URL
-    linkedin:  # Full URL 
-    github: 
-    gitlab: 
-    bitbucket: 
+    linkedin:  https://www.linkedin.com/in/edoardo-de-matteis/ # Full URL 
+    github: edodema
+    gitlab: edodema
+    bitbucket: edodema
     google_plus:
     mastodon: 
-    twitter: 
+    twitter: edmatteis
     youtube:
     facebook:
     instagram: 

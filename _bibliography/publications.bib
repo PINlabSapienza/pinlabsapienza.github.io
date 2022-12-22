@@ -130,3 +130,16 @@ The proposed solution has been incorporated into an end-to-end ADL monitoring sy
   bibtex_show = true
 
 }
+
+@inproceedings{robbiano2022adversarial,
+  title={Adversarial branch architecture search for unsupervised domain adaptation},
+  author={Robbiano, Luca and Rahman, Muhammad Rameez Ur and Galasso, Fabio and Caputo, Barbara and Carlucci, Fabio Maria},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={2918--2928},
+  year={2022},
+  abstract={Unsupervised Domain Adaptation (UDA) is a key issue in visual recognition, as it allows to bridge different visual domains enabling robust performances in the real world. To date, all proposed approaches rely on human expertise to manually adapt a given UDA method (e.g. DANN) to a specific backbone architecture (e.g. ResNet). This dependency on handcrafted designs limits the applicability of a given approach in time, as old methods need to be constantly adapted to novel backbones. Existing Neural Architecture Search (NAS) approaches cannot be directly applied to mitigate this issue, as they rely on labels that are not available in the UDA setting. Furthermore, most NAS methods search for full architectures, which precludes the use of pre-trained models, essential in a vast range of UDA settings for reaching SOTA results. To the best of our knowledge, no prior work has addressed these aspects in the context of NAS for UDA. Here we tackle both aspects with an Adversarial Branch Architecture Search for UDA (ABAS): i. we address the lack of target labels by a novel data-driven ensemble approach for model selection; and ii. we search for an auxiliary adversarial branch, attached to a pre-trained backbone, which drives the domain alignment. We extensively validate ABAS to improve two modern UDA techniques, DANN and ALDA, on three standard visual recognition datasets (Office31, Office-Home and PACS). In all cases, ABAS robustly finds the adversarial branch architectures and parameters which yield best performances. https://github.com/lr94/abas},
+  bibtex_show = true,
+  supp={https://openaccess.thecvf.com/content/WACV2022/supplemental/Robbiano_Adversarial_Branch_Architecture_WACV_2022_supplemental.pdf},
+  doi={https://doi.org/10.48550/arXiv.2102.06679},
+
+}

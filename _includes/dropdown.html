@@ -1,0 +1,21 @@
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+        MORE
+    </a>
+    <div class="navbar-dropdown is-left">
+
+
+        <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
+        href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
+        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/people">People</a>
+        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/publications">Publications</a>
+        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/presentations">Presentations</a>
+        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/blog">Blog</a>
+        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/tags">Tags</a>
+
+        <!-- <hr class="navbar-divider">
+    <a class="navbar-item">
+      Report an issue
+    </a> -->
+    </div>
+</div>

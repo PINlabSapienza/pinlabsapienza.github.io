@@ -1,4 +1,6 @@
 #people {
+    margin-top: 110px;
+
     @extend %page-padding;
     .bg{
         content: "";
@@ -28,6 +30,8 @@
                 img {
                     width: 150px;
                     height: 150px;
+                    border-radius: 55%;
+                      
                 }
             }
             .event {

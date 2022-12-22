@@ -1,5 +1,7 @@
 #publications {
     @extend %page-padding;
+    margin-top: 110px;
+
     .bg{
         content: "";
         position: absolute;

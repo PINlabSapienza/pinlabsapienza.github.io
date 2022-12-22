@@ -15,9 +15,11 @@ ol.bibliography{
     margin-top: 0;
 
     li {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         .title  {
             font-weight: bolder;
+            font-size: 22px;
+            margin-bottom: 1rem;
         }
         .author  {
             a {
@@ -27,8 +29,10 @@ ol.bibliography{
                     text-decoration: none;
                 }
             }
+            text{font-size: 10px;}
             > em {
                 border-bottom: 1px solid;
+                
                 font-style: normal;
             }
         }

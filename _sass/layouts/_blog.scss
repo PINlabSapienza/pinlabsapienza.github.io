@@ -1,4 +1,6 @@
 #blog {
+    margin-top: 110px;
+
     #aside{
         display:block;
         @media (max-width: 991px) {
@@ -46,6 +48,7 @@
                     .title {
                         position: relative;
                         line-height: 2rem;
+                        font-size: 22px;
                     }
                     .title::before {
                         content: "";

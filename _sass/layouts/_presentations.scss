@@ -1,5 +1,7 @@
 #presentations {
     @extend %page-padding;
+    margin-top: 110px;
+
     .bg{
         content: "";
         position: absolute;
@@ -22,6 +24,7 @@
             .title {
                 font-weight: bolder;
                 font-style: normal;
+                font-size: 22px;
             }
             .event {
             }

@@ -1,0 +1,39 @@
+#navbar {
+    .navbar-burger {
+        span:nth-child(2) {
+            left: calc(50%);
+            width: 8px;
+        }
+    }
+
+
+.is-active {
+    font-weight: 600;
+}
+
+.navbar-dropdown {
+    border: none;
+    right: 0;
+    left: auto;
+}
+
+a.navbar-item:hover,
+.navbar-link:hover {
+    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    color: white !important;
+}
+
+a.navbar-item.is-active {
+    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    color: white !important;
+
+    &:hover {
+        background-color: rgba($color: #fff, $alpha: 0.25) !important;
+        color: grey;
+    }
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: grey;
+}
+}

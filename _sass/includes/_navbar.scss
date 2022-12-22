@@ -1,8 +1,10 @@
 #navbar {
+    font-weight: 600;
     .navbar-burger {
         span:nth-child(2) {
             left: calc(50%);
             width: 8px;
+            
         }
     }
 
@@ -20,12 +22,12 @@
 a.navbar-item:hover,
 .navbar-link:hover {
     background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
+    color: grey !important;
 }
 
 a.navbar-item.is-active {
     background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
+    color: grey !important;
 
     &:hover {
         background-color: rgba($color: #fff, $alpha: 0.25) !important;
@@ -35,5 +37,6 @@ a.navbar-item.is-active {
 
 .navbar-link:not(.is-arrowless)::after {
     border-color: grey;
+    
 }
 }

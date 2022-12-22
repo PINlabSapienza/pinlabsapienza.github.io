@@ -1,11 +1,18 @@
+{% assign profile = site.data.profile %}
+{% assign urlstart = profile.image | split: '/' %}
+{% if urlstart == 'https:' %}
+  {% assign imgurl = profile.image %}
+{% else %}
+  {% assign imgurl = profile.image | relative_url %}
+{% endif %}
+
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
     <div class="container">
 
         <!-- logo or branding image on left side -->
         <div class="navbar-brand">
-            <a class="navbar-item"
-                href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>PINlab</strong>
+            <a class="navbar-item" href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+                <img src="{{imgurl}}"" width="40" height="64">    
             </a>
             <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"data-target="navbar-menu">
                 <span aria-hidden="true"></span>
@@ -25,7 +32,6 @@
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/presentations">Presentations</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/blog">Blog</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/tags">Tags</a>
-                <!-- {% include dropdown.html %}
             </div>
 
         </div>

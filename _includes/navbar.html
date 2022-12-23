@@ -11,8 +11,10 @@
 
         <!-- logo or branding image on left side -->
         <div class="navbar-brand">
-            <a class="navbar-item" href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <img src="{{imgurl}}"" width="40" height="64">    
+            <a class="navbar-brand" href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+                 
+                <img src="{{imgurl}}" width="60" height="60" class="d-inline-block align-top" alt="">
+                
             </a>
             <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"data-target="navbar-menu">
                 <span aria-hidden="true"></span>

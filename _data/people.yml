@@ -221,3 +221,28 @@
     youtube:
     facebook:
     Instagram:
+
+
+- people:
+  image: \assets\img\smile.png # do not change
+  name: Alessio Sampieri
+  status: PhD Student
+
+  social:
+    email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
+    orcid: 0000-0002-1432-7499
+    scholar: lzFb_ZUAAAAJ
+    publons: 
+    research_gate: 
+    dblp:  https://dblp.org/pid/304/2196.html # Full URL
+    semantic_scholar:  # Full URL
+    linkedin: https://www.linkedin.com/in/alessio-sampieri/  # Full URL 
+    github: AlessioSam
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: AlessioSampier1
+    youtube:
+    facebook: 
+    instagram: alessio.sampieri

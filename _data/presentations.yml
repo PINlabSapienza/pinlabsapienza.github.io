@@ -1,12 +1,12 @@
 - presentation:
-    title: A nice presentation
-    event: Fancy conference
-    date: 05/2022
-    comment: This is some comment text that can do _Markdown_
-    slides: https://www.google.com # potential link to slides
-    hub: example-hub # potential hub page to link to
-    recording: https://www.youtube.com
-- presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
+    title: Deep Learning for Anomaly Detection 
+    event: Advanced Machine Learning master course
+    date: 10/2022
+    comment: Lecture presented by Alessandro Flaborea on the most advanced techniques for Anomaly Detection in the Master's course on Advanced Machine Learning during the 2022/23 academic year.
+    slides: https://docs.google.com/presentation/d/1q3TCCimwupoB2VNZPMV69TedOhWECcI3/edit?usp=sharing&ouid=108707716389986426982&rtpof=true&sd=true # potential link to slides
+    hub:  # potential hub page to link to
+    recording:  # potential link to recording
+# - presentation:
+#     title: A second presentation
+#     event: Another conference
+#     date: 03/2022

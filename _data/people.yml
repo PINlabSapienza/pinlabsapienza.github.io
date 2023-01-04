@@ -197,3 +197,27 @@
     youtube:
     facebook:
     instagram:
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Muhammad Rameez Ur Rahman
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 0000-0003-4425-5948
+    scholar: LWFuG5sAAAAJ
+    publons: 
+    research_gate: https://www.researchgate.net/profile/Muhammad-Rameez-Ur-Rahman-2
+    dblp:  # Full URL    Semantic_scholar:https://www.semanticscholar.org/author/Muhammad-Rameez-Ur-Rahman/104501424
+    linkedin:  https://www.linkedin.com/in/muhammad-rameez-ur-rahman-9a494a29/
+    github: ram95d
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    Instagram:

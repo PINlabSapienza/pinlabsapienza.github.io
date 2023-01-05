@@ -1,5 +1,5 @@
 - people:
-  image: \assets\img\smile.png # do not change
+  image: \assets\img\people\fab_pic.png # do not change
   name: Fabio Galasso
   status: Head of the lab
 
@@ -24,7 +24,7 @@
 
 
 - people:
-  image: \assets\img\aleflabo.png
+  image: \assets\img\people\aleflabo.png
   name: Alessandro Flaborea
   status: PhD Student
 
@@ -74,7 +74,7 @@
     instagram: 
 
 - people:
-  image: \assets\img\paolom.png
+  image: \assets\img\people\paolom.png
   name: Paolo Mandica
   status: PhD Student
 

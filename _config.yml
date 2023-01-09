@@ -5,7 +5,7 @@ baseurl:
 # Turn subpages on or off
 publications: True
 presentations: True
-blog: True
+blog: False
 people: True
 
 # Language of the website

@@ -22,6 +22,30 @@
     facebook:
     instagram:
 
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Guido Maria D'Amely di Melendugno
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
 
 - people:
   image: \assets\img\people\aleflabo.png
@@ -51,27 +75,103 @@
 
 - people:
   image: \assets\img\smile.png  # do not change
-  name: Edoardo De Matteis
+  name: Luca Franco
   status: PhD Student
 
   social:
-    webpage: https://www.youtube.com/watch?v=bUcG7vd_7aQ
-    orcid: 0000-0002-0796-035X
+    webpage: 
+    orcid: 
     scholar: 
     publons: 
     research_gate: 
     dblp:  # Full URL
     semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/edoardo-de-matteis-7988821bb/ # Full URL 
-    github: edodema
-    gitlab: edodema
-    bitbucket: edodema
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
     google_plus:
     mastodon: 
-    twitter: edmatteis
+    twitter: 
     youtube:
     facebook:
-    instagram: 
+    instagram:
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Muhammad Rameez Ur Rahman
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 0000-0003-4425-5948
+    scholar: LWFuG5sAAAAJ
+    publons: 
+    research_gate: https://www.researchgate.net/profile/Muhammad-Rameez-Ur-Rahman-2
+    dblp:  # Full URL    Semantic_scholar:https://www.semanticscholar.org/author/Muhammad-Rameez-Ur-Rahman/104501424
+    linkedin:  https://www.linkedin.com/in/muhammad-rameez-ur-rahman-9a494a29/
+    github: ram95d
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    Instagram:
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Giovanni Ficarra
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Laura Laurenti
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/lauralaurenti/
+    github: lauralaurenti
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    Instagram:
+
+
 
 - people:
   image: \assets\img\people\paolom.png
@@ -98,6 +198,83 @@
     instagram:
 
 
+- people:
+  image: \assets\img\smile.png # do not change
+  name: Alessio Sampieri
+  status: PhD Student
+
+  social:
+    email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
+    orcid: 0000-0002-1432-7499
+    scholar: lzFb_ZUAAAAJ
+    publons: 
+    research_gate: 
+    dblp:  https://dblp.org/pid/304/2196.html # Full URL
+    semantic_scholar:  # Full URL
+    linkedin: https://www.linkedin.com/in/alessio-sampieri/  # Full URL 
+    github: AlessioSam
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: AlessioSampier1
+    youtube:
+    facebook: 
+    instagram: alessio.sampieri
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Luca Scofano
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 0000-0002-0392-7464
+    scholar: https://scholar.google.com/citations?user=2nLw-cgAAAAJ&hl=it&oi=ao
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/luca-scofano-229793139/
+    github: L-Scofano
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\smile.png # do not change
+  name: Luca Collorone
+  status: PhD Student
+
+  social:
+    Webpage:
+    email:  collorone@diag.uniroma1.it
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  
+    semantic_scholar:  
+    linkedin:
+    github: colloroneluca
+    gitlab:  
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter:    
+    youtube:
+    facebook:
+    instagram: 
+
+
 
 - people:
   image: \assets\img\smile.png  # do not change
@@ -115,6 +292,57 @@
     linkedin:  https://www.linkedin.com/in/stefano-d-arrigo-6b084019a 
     github: stdrr
     gitlab: stdrr
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Edoardo De Matteis
+  status: PhD Student
+
+  social:
+    webpage: #https://www.youtube.com/watch?v=bUcG7vd_7aQ
+    orcid: 0000-0002-0796-035X
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/edoardo-de-matteis-7988821bb/ # Full URL 
+    github: edodema
+    gitlab: edodema
+    bitbucket: edodema
+    google_plus:
+    mastodon: 
+    twitter: edmatteis
+    youtube:
+    facebook:
+    instagram: 
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Massimiliano Pappa
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
     bitbucket: 
     google_plus:
     mastodon: 
@@ -150,99 +378,6 @@
     instagram:
 
 
-- people:
-  image: \assets\img\smile.png  # do not change
-  name: Laura Laurenti
-  status: PhD Student
-
-  social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/lauralaurenti/
-    github: lauralaurenti
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: 
-    youtube:
-    facebook:
-    Instagram:
-
-- people:
-  image: \assets\img\smile.png  # do not change
-  name: Luca Scofano
-  status: PhD Student
-
-  social:
-    webpage: 
-    orcid: 0000-0002-0392-7464
-    scholar: https://scholar.google.com/citations?user=2nLw-cgAAAAJ&hl=it&oi=ao
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/luca-scofano-229793139/
-    github: L-Scofano
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: 
-    youtube:
-    facebook:
-    instagram:
 
 
-- people:
-  image: \assets\img\smile.png  # do not change
-  name: Muhammad Rameez Ur Rahman
-  status: PhD Student
 
-  social:
-    webpage: 
-    orcid: 0000-0003-4425-5948
-    scholar: LWFuG5sAAAAJ
-    publons: 
-    research_gate: https://www.researchgate.net/profile/Muhammad-Rameez-Ur-Rahman-2
-    dblp:  # Full URL    Semantic_scholar:https://www.semanticscholar.org/author/Muhammad-Rameez-Ur-Rahman/104501424
-    linkedin:  https://www.linkedin.com/in/muhammad-rameez-ur-rahman-9a494a29/
-    github: ram95d
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: 
-    youtube:
-    facebook:
-    Instagram:
-
-
-- people:
-  image: \assets\img\smile.png # do not change
-  name: Alessio Sampieri
-  status: PhD Student
-
-  social:
-    email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
-    orcid: 0000-0002-1432-7499
-    scholar: lzFb_ZUAAAAJ
-    publons: 
-    research_gate: 
-    dblp:  https://dblp.org/pid/304/2196.html # Full URL
-    semantic_scholar:  # Full URL
-    linkedin: https://www.linkedin.com/in/alessio-sampieri/  # Full URL 
-    github: AlessioSam
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: AlessioSampier1
-    youtube:
-    facebook: 
-    instagram: alessio.sampieri

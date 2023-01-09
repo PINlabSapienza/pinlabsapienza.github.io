@@ -23,12 +23,16 @@
         @media (max-width: 991px) {
             grid-template-columns: repeat(2 , 1fr);
          }
- 
+        margin-top: 70px;
+
+        grid-gap: 40px;
         grid-template-rows: auto;
         .grid-cell{
             .name {
                 font-weight: bolder;
                 font-style: normal;
+                
+                
             }
             .img-wrap {
                 img {

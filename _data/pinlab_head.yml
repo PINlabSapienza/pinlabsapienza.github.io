@@ -1,0 +1,23 @@
+- people:
+  image: \assets\img\people\fab_pic.png # do not change
+  name: Fabio Galasso
+  status: Head of the lab
+
+  social:
+    webpage: https://fgalasso.bitbucket.io/
+    orcid: 0000-0003-1875-7813
+    scholar: 2gSuGBEAAAAJ
+    publons: 
+    research_gate: Fabio-Galasso-2137045840
+    dblp:  https://dblp.org/pid/48/3897.html
+    semantic_scholar:  https://www.semanticscholar.org/author/Fabio-Galasso/1787725
+    linkedin: https://www.linkedin.com/in/fabio-galasso-61141b32 
+    github: fgalasso
+    gitlab: fgalasso
+    bitbucket: fgalasso
+    google_plus:
+    mastodon: 
+    twitter: GalassoFab10
+    youtube:
+    facebook:
+    instagram:

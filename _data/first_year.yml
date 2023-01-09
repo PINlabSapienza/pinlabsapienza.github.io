@@ -1,0 +1,130 @@
+- people:
+  image: \assets\img\smile.png # do not change
+  name: Luca Collorone
+  status: PhD Student
+
+  social:
+    Webpage:
+    email:  collorone@diag.uniroma1.it
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  
+    semantic_scholar:  
+    linkedin:
+    github: colloroneluca
+    gitlab:  
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter:    
+    youtube:
+    facebook:
+    instagram: 
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Stefano D’Arrigo
+  status: PhD Student
+
+  social:
+    webpage: https://phd.uniroma1.it/web/STEFANO-D'ARRIGO_nP1960500_IT.aspx
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/stefano-d-arrigo-6b084019a 
+    github: stdrr
+    gitlab: stdrr
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Edoardo De Matteis
+  status: PhD Student
+
+  social:
+    webpage: #https://www.youtube.com/watch?v=bUcG7vd_7aQ
+    orcid: 0000-0002-0796-035X
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/edoardo-de-matteis-7988821bb/ # Full URL 
+    github: edodema
+    gitlab: edodema
+    bitbucket: edodema
+    google_plus:
+    mastodon: 
+    twitter: edmatteis
+    youtube:
+    facebook:
+    instagram: 
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Massimiliano Pappa
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Daniele Trappolini 
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/daniele-trappolini-5789761b6/
+    github: dan-trappolini
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+

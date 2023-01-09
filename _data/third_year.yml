@@ -1,0 +1,98 @@
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Guido Maria D'Amely di Melendugno
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\people\aleflabo.png
+  name: Alessandro Flaborea
+  status: PhD Student
+
+  social:
+    webpage: https://alessandroflaborea.me/
+    email:  # Full email address, e.g. "sample@google.com"
+    orcid: 
+    scholar: HHDHIVoAAAAJ
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin: https://www.linkedin.com/in/alessandro-flaborea/ # Full URL 
+    github: aleflabo
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: AlessandroFlabo
+    youtube:
+    facebook:
+    instagram: aleflabo
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Luca Franco
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
+  name: Muhammad Rameez Ur Rahman
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 0000-0003-4425-5948
+    scholar: LWFuG5sAAAAJ
+    publons: 
+    research_gate: https://www.researchgate.net/profile/Muhammad-Rameez-Ur-Rahman-2
+    dblp:  # Full URL    Semantic_scholar:https://www.semanticscholar.org/author/Muhammad-Rameez-Ur-Rahman/104501424
+    linkedin:  https://www.linkedin.com/in/muhammad-rameez-ur-rahman-9a494a29/
+    github: ram95d
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    Instagram:

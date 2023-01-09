@@ -24,6 +24,33 @@
 
 - people:
   image: \assets\img\smile.png  # do not change
+  name: Bharti Munjal
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+
+
+- people:
+  image: \assets\img\smile.png  # do not change
   name: Guido Maria D'Amely di Melendugno
   status: PhD Student
 

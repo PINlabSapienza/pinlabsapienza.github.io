@@ -23,7 +23,7 @@
     instagram:
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\bharti.gif  # do not change
   name: Bharti Munjal
   status: PhD Student
 
@@ -101,7 +101,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\luca_f.gif  # do not change
   name: Luca Franco
   status: PhD Student
 
@@ -149,7 +149,7 @@
     Instagram:
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\giovanni.gif  # do not change
   name: Giovanni Ficarra
   status: PhD Student
 
@@ -175,7 +175,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\laura.gif  # do not change
   name: Laura Laurenti
   status: PhD Student
 
@@ -226,7 +226,7 @@
 
 
 - people:
-  image: \assets\img\smile.png # do not change
+  image: \assets\img\people\alessio.gif # do not change
   name: Alessio Sampieri
   status: PhD Student
 
@@ -252,7 +252,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\luca_s.gif  # do not change
   name: Luca Scofano
   status: PhD Student
 
@@ -277,7 +277,7 @@
 
 
 - people:
-  image: \assets\img\smile.png # do not change
+  image: \assets\img\people\luca_c.gif # do not change
   name: Luca Collorone
   status: PhD Student
 
@@ -304,7 +304,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\stefano.gif  # do not change
   name: Stefano D’Arrigo
   status: PhD Student
 
@@ -355,7 +355,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\max.gif  # do not change
   name: Massimiliano Pappa
   status: PhD Student
 
@@ -381,7 +381,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\danie.gif  # do not change
   name: Daniele Trappolini 
   status: PhD Student
 

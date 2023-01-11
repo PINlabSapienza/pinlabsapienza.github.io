@@ -50,7 +50,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\guido.png  # do not change
   name: Guido Maria D'Amely di Melendugno
   status: PhD Student
 
@@ -126,7 +126,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\ram.jpg  # do not change
   name: Muhammad Rameez Ur Rahman
   status: PhD Student
 
@@ -329,7 +329,7 @@
 
 
 - people:
-  image: \assets\img\smile.png  # do not change
+  image: \assets\img\people\edo2.gif  # do not change
   name: Edoardo De Matteis
   status: PhD Student
 

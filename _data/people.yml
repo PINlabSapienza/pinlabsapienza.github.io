@@ -23,7 +23,7 @@
     instagram:
 
 - people:
-  image: \assets\img\people\bharti.gif  # do not change
+  image: \assets\img\people\giovanni.gif  # do not change
   name: Bharti Munjal
   status: PhD Student
 
@@ -101,28 +101,29 @@
 
 
 - people:
-  image: \assets\img\people\luca_f.gif  # do not change
+  image: \assets\img\people\lucaF.jpeg  # do not change
   name: Luca Franco
   status: PhD Student
 
   social:
     webpage: 
-    orcid: 
-    scholar: 
+    email:  luca.franco@uniroma1.it # Full email address, e.g. "sample@google.com"
+    orcid: 0000-0003-0107-6755
+    scholar: c5jyrK4AAAAJ
     publons: 
     research_gate: 
-    dblp:  # Full URL
+    dblp:  https://dblp.org/pid/304/2582 # Full URL
     semantic_scholar:  # Full URL
-    linkedin:  
-    github:
+    linkedin: https://www.linkedin.com/in/luca-franco-968819196/ # Full URL 
+    github: FraLuca
     gitlab: 
     bitbucket: 
     google_plus:
     mastodon: 
-    twitter: 
+    twitter: FraLuca17
     youtube:
     facebook:
-    instagram:
+    instagram: 
 
 
 - people:
@@ -149,33 +150,34 @@
     Instagram:
 
 - people:
-  image: \assets\img\people\giovanni.gif  # do not change
+  image: \assets\img\people\giovanni.jpg  # do not change
   name: Giovanni Ficarra
   status: PhD Student
 
   social:
-    webpage: 
+    webpage:
+    Email: giovanni.ficarra@uniroma1.it
     orcid: 
-    scholar: 
+    scholar:
     publons: 
     research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  
-    github:
-    gitlab: 
+    dblp: 
+    semantic_scholar: 
+    linkedin: https://www.linkedin.com/in/giovannificarra/ 
+    github: GioFic95
+    gitlab: GioFic95
     bitbucket: 
     google_plus:
     mastodon: 
-    twitter: 
+    twitter: GioFic95
     youtube:
     facebook:
-    instagram:
+    instagram: GioFic95
 
 
 
 - people:
-  image: \assets\img\people\laura.gif  # do not change
+  image: \assets\img\people\laura.jpg  # do not change
   name: Laura Laurenti
   status: PhD Student
 
@@ -226,7 +228,7 @@
 
 
 - people:
-  image: \assets\img\people\alessio.gif # do not change
+  image: \assets\img\people\alessio.jpeg # do not change
   name: Alessio Sampieri
   status: PhD Student
 
@@ -252,7 +254,7 @@
 
 
 - people:
-  image: \assets\img\people\luca_s.gif  # do not change
+  image: \assets\img\people\lucaS.jpg  # do not change
   name: Luca Scofano
   status: PhD Student
 
@@ -304,7 +306,7 @@
 
 
 - people:
-  image: \assets\img\people\stefano.gif  # do not change
+  image: \assets\img\people\stefano.jpeg  # do not change
   name: Stefano D’Arrigo
   status: PhD Student
 
@@ -329,7 +331,7 @@
 
 
 - people:
-  image: \assets\img\people\edo2.gif  # do not change
+  image: \assets\img\people\edo.jpeg  # do not change
   name: Edoardo De Matteis
   status: PhD Student
 
@@ -381,7 +383,7 @@
 
 
 - people:
-  image: \assets\img\people\danie.gif  # do not change
+  image: \assets\img\people\danie.jpeg  # do not change
   name: Daniele Trappolini 
   status: PhD Student
 

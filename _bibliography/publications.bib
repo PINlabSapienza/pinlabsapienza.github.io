@@ -13,23 +13,20 @@ References
 %website     = {https://www.google.com},
 %latex_src   = {https://www.google.com},
 
-@article{flaborea23,
-  doi = {10.48550/ARXIV.2301.09489},
-  
-  
-  author = {Flaborea, Alessandro and Di Melendugno, Guido Maria D'Amely and D'arrigo, Stefano and Sterpa, Marco Aurelio and Sampieri, Alessio and Galasso, Fabio},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Contracting Skeletal Kinematic Embeddings for Anomaly Detection},
-  journal={arXiv preprint arXiv:2301.09489},
- 
-  year = {2023},
-  arxiv = {2209.10250},
-  bibtex_show = true,
-  abstract = {Detecting the anomaly of human behavior is paramount to timely recognizing endangering situations, such as street fights or elderly falls. However, anomaly detection is complex, since anomalous events are rare and because it is an open set recognition task, i.e., what is anomalous at inference has not been observed at training. We propose COSKAD, a novel model which encodes skeletal human motion by an efficient graph convolutional network and learns to COntract SKeletal kinematic embeddings onto a latent hypersphere of minimum volume for Anomaly Detection. We propose and analyze three latent space designs for COSKAD: the commonly-adopted Euclidean, and the new spherical-radial and hyperbolic volumes. All three variants outperform the state-of-the-art, including video-based techniques, on the ShangaiTechCampus, the Avenue, and on the most recent UBnormal dataset, for which we contribute novel skeleton annotations and the selection of human-related videos. The source code and dataset will be released upon acceptance.}
+@article{FRANCO2023109372,
+title = {Under the hood of transformer networks for trajectory forecasting},
+journal = {Pattern Recognition},
+volume = {138},
+pages = {109372},
+year = {2023},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2023.109372},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320323000730},
+author = {Luca Franco and Leonardo Placidi and Francesco Giuliari and Irtiza Hasan and Marco Cristani and Fabio Galasso},
+keywords = {Trajectory forecasting, Human behavior, Transformer networks, BERT, Multi-modal future prediction},
+bibtex_show = true,
+abstract = {Transformer Networks have established themselves as the de-facto state-of-the-art for trajectory forecasting but there is currently no systematic study on their capability to model the motion patterns of people, without interactions with other individuals nor the social context. There is abundant literature on LSTMs, CNNs and GANs on this subject. However methods adopting Transformer techniques achieve great performances by complex models and a clear analysis of their adoption as plain sequence models is missing. This paper proposes the first in-depth study of Transformer Networks (TF) and the Bidirectional Transformers (BERT) for the forecasting of the individual motion of people, without bells and whistles. We conduct an exhaustive evaluation of the input/output representations, problem formulations and sequence modelling, including a novel analysis of their capability to predict multi-modal futures. Out of comparative evaluation on the ETH+UCY benchmark, both TF and BERT are top performers in predicting individual motions and remain within a narrow margin wrt more complex techniques, including both social interactions and scene contexts. Source code will be released for all conducted experiments.}
 }
-
 
 
 @article{MUNJAL2023109049,
@@ -91,6 +88,28 @@ abstract = {Considering the increasing aging of the population, multi-device mon
 
 }
 
+
+
+@article{flaborea23,
+  doi = {10.48550/ARXIV.2301.09489},
+  
+  
+  author = {Flaborea, Alessandro and Di Melendugno, Guido Maria D'Amely and D'arrigo, Stefano and Sterpa, Marco Aurelio and Sampieri, Alessio and Galasso, Fabio},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Contracting Skeletal Kinematic Embeddings for Anomaly Detection},
+  journal={arXiv preprint arXiv:2301.09489},
+ 
+  year = {2023},
+  arxiv = {2209.10250},
+  bibtex_show = true,
+  abstract = {Detecting the anomaly of human behavior is paramount to timely recognizing endangering situations, such as street fights or elderly falls. However, anomaly detection is complex, since anomalous events are rare and because it is an open set recognition task, i.e., what is anomalous at inference has not been observed at training. We propose COSKAD, a novel model which encodes skeletal human motion by an efficient graph convolutional network and learns to COntract SKeletal kinematic embeddings onto a latent hypersphere of minimum volume for Anomaly Detection. We propose and analyze three latent space designs for COSKAD: the commonly-adopted Euclidean, and the new spherical-radial and hyperbolic volumes. All three variants outperform the state-of-the-art, including video-based techniques, on the ShangaiTechCampus, the Avenue, and on the most recent UBnormal dataset, for which we contribute novel skeleton annotations and the selection of human-related videos. The source code and dataset will be released upon acceptance.}
+}
+
+
+
+
 @InProceedings{Sofianos_2021_ICCV,
     author    = {Sofianos, Theodoros and Sampieri, Alessio and Franco, Luca and Galasso, Fabio},
     title     = {Space-Time-Separable Graph Convolutional Network for Pose Forecasting},
@@ -148,20 +167,7 @@ abstract = {Considering the increasing aging of the population, multi-device mon
   bibtex_show = true
 }
 
-@article{FRANCO2023109372,
-title = {Under the hood of transformer networks for trajectory forecasting},
-journal = {Pattern Recognition},
-volume = {138},
-pages = {109372},
-year = {2023},
-issn = {0031-3203},
-doi = {https://doi.org/10.1016/j.patcog.2023.109372},
-url = {https://www.sciencedirect.com/science/article/pii/S0031320323000730},
-author = {Luca Franco and Leonardo Placidi and Francesco Giuliari and Irtiza Hasan and Marco Cristani and Fabio Galasso},
-keywords = {Trajectory forecasting, Human behavior, Transformer networks, BERT, Multi-modal future prediction},
-bibtex_show = true,
-abstract = {Transformer Networks have established themselves as the de-facto state-of-the-art for trajectory forecasting but there is currently no systematic study on their capability to model the motion patterns of people, without interactions with other individuals nor the social context. There is abundant literature on LSTMs, CNNs and GANs on this subject. However methods adopting Transformer techniques achieve great performances by complex models and a clear analysis of their adoption as plain sequence models is missing. This paper proposes the first in-depth study of Transformer Networks (TF) and the Bidirectional Transformers (BERT) for the forecasting of the individual motion of people, without bells and whistles. We conduct an exhaustive evaluation of the input/output representations, problem formulations and sequence modelling, including a novel analysis of their capability to predict multi-modal futures. Out of comparative evaluation on the ETH+UCY benchmark, both TF and BERT are top performers in predicting individual motions and remain within a narrow margin wrt more complex techniques, including both social interactions and scene contexts. Source code will be released for all conducted experiments.}
-}
+
 
 @inproceedings{sampieri2022pose,
   title={Pose Forecasting in Industrial Human-Robot Collaboration},

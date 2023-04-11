@@ -25,6 +25,37 @@ References
 }
 
 
+@InProceedings{Rahman23cvprw,
+  title={Best Practices for 2-Body Pose Forecasting},
+  author={Ur Rahman*, Muhammad Rameez and Scofano*, Luca and De Matteis, Edoardo and Flaborea, Alessandro and Sampieri, Alessio and Galasso, Fabio},
+  booktitle={CVPR '23 Precognition Workshop},
+  year={2023},
+  abstract = {The task of collaborative human pose forecasting stands for predicting the future poses of multiple interacting people, given those in previous frames. Predicting two people in interaction, instead of each separately, promises better performance, due to their body-body motion correlations. But the task has remained so far primarily unexplored.
+  In this paper, we review the progress in human pose forecasting and provide an in-depth assessment of the single-person practices that perform best for 2-body collaborative motion forecasting.
+  Our study confirms the positive impact of frequency input representations, space-time separable and fully-learnable interaction adjacencies for the encoding GCN and FC decoding.
+  Other single-person practices do not transfer to 2-body, so the proposed best ones do not include hierarchical body modeling or attention-based interaction encoding.
+  We further contribute a novel initialization procedure for the 2-body spatial interaction parameters of the encoder, which benefits performance and stability. 
+  Altogether, our proposed 2-body pose forecasting best practices yield a performance improvement of 21.9% over the state-of-the-art on the most recent ExPI dataset, whereby the novel initialization accounts for 3.5%.
+  See our project page at https://www.pinlab.org/bestpractices2body.
+  },
+  website= {https://www.pinlab.org/bestpractices2body},
+}
+
+
+
+
+@InProceedings{flaborea2022we,
+  title={Are we certain it's anomalous?},
+  author={Flaborea, Alessandro and Prenkaj, Bardh and Munjal, Bharti and Sterpa, Marco Aurelio and Aragona, Dario and Podo, Luca and Galasso, Fabio},
+  booktitle={CVPR '23 Visual Anomaly and Novelty Detection (VAND) Workshop},
+  year={2023},
+  abstract={The progress in modelling time series and, more generally, sequences of structured-data has recently revamped research in anomaly detection. The task stands for identifying abnormal behaviours in financial series, IT systems, aerospace measurements, and the medical domain, where anomaly detection may aid in isolating cases of depression and attend the elderly. Anomaly detection in time series is a complex task since anomalies are rare due to highly non-linear temporal correlations and since the definition of anomalous is sometimes subjective. Here we propose the novel use of Hyperbolic uncertainty for Anomaly Detection (HypAD). HypAD learns self-supervisedly to reconstruct the input signal. We adopt best practices from the state-of-the-art to encode the sequence by an LSTM, jointly learnt with a decoder to reconstruct the signal, with the aid of GAN critics. Uncertainty is estimated end-to-end by means of a hyperbolic neural network. By using uncertainty, HypAD may assess whether it is certain about the input signal but it fails to reconstruct it because this is anomalous; or whether the reconstruction error does not necessarily imply anomaly, as the model is uncertain, e.g. a complex but regular input signal. The novel key idea is that a detectable anomaly is one where the model is certain but it predicts wrongly. HypAD outperforms the current state-of-the-art for univariate anomaly detection on established benchmarks based on data from NASA, Yahoo, Numenta, Amazon, Twitter. It also yields state-of-the-art performance on a multivariate dataset of anomaly activities in elderly home residences, and it outperforms the baseline on SWaT. Overall, HypAD yields the lowest false alarms at the best performance rate, thanks to successfully identifying detectable anomalies.
+  },
+  arxiv={2211.09224},
+  doi={https://doi.org/10.48550/arXiv.2211.09224},
+  bibtex_show = true
+}
+
 @article{FRANCO2023109372,
 title = {Under the hood of transformer networks for trajectory forecasting},
 journal = {Pattern Recognition},
@@ -167,17 +198,7 @@ abstract = {Considering the increasing aging of the population, multi-device mon
   bibtex_show = true
 }
 
-@article{flaborea2022we,
-  title={Are we certain it's anomalous?},
-  author={Flaborea, Alessandro and Prenkaj, Bardh and Munjal, Bharti and Sterpa, Marco Aurelio and Aragona, Dario and Podo, Luca and Galasso, Fabio},
-  journal={arXiv preprint arXiv:2211.09224},
-  year={2022},
-  abstract={The progress in modelling time series and, more generally, sequences of structured-data has recently revamped research in anomaly detection. The task stands for identifying abnormal behaviours in financial series, IT systems, aerospace measurements, and the medical domain, where anomaly detection may aid in isolating cases of depression and attend the elderly. Anomaly detection in time series is a complex task since anomalies are rare due to highly non-linear temporal correlations and since the definition of anomalous is sometimes subjective. Here we propose the novel use of Hyperbolic uncertainty for Anomaly Detection (HypAD). HypAD learns self-supervisedly to reconstruct the input signal. We adopt best practices from the state-of-the-art to encode the sequence by an LSTM, jointly learnt with a decoder to reconstruct the signal, with the aid of GAN critics. Uncertainty is estimated end-to-end by means of a hyperbolic neural network. By using uncertainty, HypAD may assess whether it is certain about the input signal but it fails to reconstruct it because this is anomalous; or whether the reconstruction error does not necessarily imply anomaly, as the model is uncertain, e.g. a complex but regular input signal. The novel key idea is that a detectable anomaly is one where the model is certain but it predicts wrongly. HypAD outperforms the current state-of-the-art for univariate anomaly detection on established benchmarks based on data from NASA, Yahoo, Numenta, Amazon, Twitter. It also yields state-of-the-art performance on a multivariate dataset of anomaly activities in elderly home residences, and it outperforms the baseline on SWaT. Overall, HypAD yields the lowest false alarms at the best performance rate, thanks to successfully identifying detectable anomalies.
-  },
-  arxiv={2211.09224},
-  doi={https://doi.org/10.48550/arXiv.2211.09224},
-  bibtex_show = true
-}
+
 
 
 

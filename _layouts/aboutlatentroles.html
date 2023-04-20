@@ -1,0 +1,61 @@
+---
+layout: page
+---
+<div id="multibody">
+    <section class="bg"></section>
+    <h1 class="title">{{ page.title }}</h1>
+    <div class="wrapper">
+    </div>
+
+    <div align="center">
+        <h1>Best Practices for 2-Body Pose Forecasting</h1>
+        <h2>CVPR Precognition Workshop &#39;23</h2>
+        <h3> <i>Muhammad Rameez Ur Rahman*, Luca Scofano*, Edoardo De Matteis, Alessandro Flaborea, Alessio Sampieri and Fabio Galasso</i></h3>
+         <h4> <i>Sapienza University of Rome, Italy</i></h4>
+        </div>
+        
+        <hr>
+        <p align="center"><button type="button" class="btn btn-primary"><a href="#abstract">Abstract</a></button>
+        <button type="button" class="btn btn-primary"><a href="https://arxiv.org/abs/2304.05758">Paper</a></button>
+        <!-- <button type="button" class="btn btn-primary"><a href="#poster-and-slides">Poster and Slides</a></button> -->
+        <!-- <button type="button" class="btn btn-primary"><a href="#talk">Talk</a></button> -->
+        <button type="button" class="btn btn-primary"><a href="#qualitative">More Qualitative Results</a></button>
+        <button type="button" class="btn btn-primary"><a href="https://github.com/edodema/BestPractices2Body">Code</a></button></p>
+
+        <hr>
+        <p align="center">
+            <img src="\assets\img\projects\2body\model_ext.png" width="700" height="600" alt="centered image" />
+        </p>
+        
+        <hr>
+        <h1 id="abstract">Abstract</h1>
+        <p>The task of collaborative human pose forecasting stands for predicting the future poses of multiple interacting people, given those in previous frames. Predicting two people in interaction, instead of each separately, promises better performance, due to their body-body motion correlations. But the task has remained so far primarily unexplored.</p>
+        <p>In this paper, we review the progress in human pose forecasting and provide an in-depth assessment of the single-person practices that perform best for 2-body collaborative motion forecasting.
+            Our study confirms the positive impact of frequency input representations, space-time separable and fully-learnable interaction adjacencies for the encoding GCN and FC decoding.
+            Other single-person practices do not transfer to 2-body, so the proposed best ones do not include hierarchical body modeling or attention-based interaction encoding.</p>
+        <p>We further contribute a novel initialization procedure for the 2-body spatial interaction parameters of the encoder, which benefits performance and stability. 
+            Altogether, our proposed 2-body pose forecasting best practices yield a performance improvement of 21.9% over the state-of-the-art on the most recent ExPI dataset, whereby the novel initialization accounts for 3.5%.
+            </p>
+
+
+        <hr>
+        <h1 id="qualitative">More Qualitative Results</h1>
+        <p>  </p>
+        
+
+            
+        <div align="center">
+        <iframe src="https://www.youtube.com/embed/TuGoqxElRPQ" width="610px" height="367px" ></iframe>
+        </div>
+        
+        
+        <hr> 
+        
+        <!-- <h1 id="poster-and-slides">Poster and Slides</h1>
+        <p align="center">
+            <img src="/images/7726_Poster_page-0001.jpg" alt="centered image" />
+        </p>-->
+        
+
+
+</div>

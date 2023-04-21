@@ -23,6 +23,11 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
+        {% if site.projects %}
+        <a href="{{ '/projects' | relative_url }}">
+          <li class="btn-nav">Projects</li>
+        </a>
+        {% endif %}
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">
             <li class="btn-nav">Blog</li>
@@ -52,6 +57,11 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
+        {% if site.projects %}
+        <a href="{{ '/projects' | relative_url }}">
+          <li class="btn-nav">Projects</li>
+        </a>
+        {% endif %}
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">
             <li class="btn-nav">Blog</li>
@@ -77,6 +87,11 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
+        {% if site.projects %}
+        <a href="{{ '/projects' | relative_url }}">
+          <li class="btn-nav">Projects</li>
+        </a>
+        {% endif %}
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">
             <li class="btn-nav">Blog</li>
@@ -101,6 +116,40 @@
           </a>
         {% endif %}
         <li class="current">Presentations</li>
+        {% if site.projects %}
+        <a href="{{ '/projects' | relative_url }}">
+          <li class="btn-nav">Projects</li>
+        </a>
+        {% endif %}
+        {% if site.blog %}
+          <a href="{{ '/blog' | relative_url }}">
+            <li class="btn-nav">Blog</li>
+          </a>
+          <a href="{{ '/tags' | relative_url }}">
+            <li class="btn-nav">Tags</li>
+          </a>
+        {% endif %}
+        <!-- projects -->
+        {% when 'projects' %}
+        <a href="{{ '/'' | relative_url }}">
+          <li class="btn-nav">Home</li>
+        </a>
+        {% if site.people %}
+        <a href="{{ '/people' | relative_url }}">
+          <li class="btn-nav">People</li>
+        </a>
+        {% endif %}
+        {% if site.publications %}
+          <a href="{{ '/publications' | relative_url }}">
+            <li class="btn-nav">Publications</li>
+          </a>
+        {% endif %}
+        {% if site.presentations %}
+          <a href="{{ '/presentations' | relative_url }}">
+            <li class="btn-nav">Presentations</li>
+          </a>
+        {% endif %}
+        <li class="current">Projects</li>
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">
             <li class="btn-nav">Blog</li>
@@ -129,6 +178,11 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
+        {% if site.projects %}
+        <a href="{{ '/projects' | relative_url }}">
+          <li class="btn-nav">Projects</li>
+        </a>
+        {% endif %}
         <li class="current">Blog</li>
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
@@ -153,6 +207,11 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
+        {% if site.projects %}
+        <a href="{{ '/projects' | relative_url }}">
+          <li class="btn-nav">Projects</li>
+        </a>
+        {% endif %}
           <a href="{{ '/blog' | relative_url }}">
             <li class="btn-nav">Blog</li>
           </a>
@@ -176,6 +235,11 @@
           <a href="{{ '/presentations' | relative_url }}">
             <li class="btn-nav">Presentations</li>
           </a>
+        {% endif %}
+        {% if site.projects %}
+        <a href="{{ '/projects' | relative_url }}">
+          <li class="btn-nav">Projects</li>
+        </a>
         {% endif %}
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">

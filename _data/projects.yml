@@ -1,42 +1,60 @@
-- project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+- project:
+    title: Best Practices for 2-Body Pose Forecasting 
+    authors: Muhammad Rameez Ur Rahman*,  Luca Scofano*,  Edoardo De Matteis,  Alessandro Flaborea,  Alessio Sampieri,  and Fabio Galasso
+    event: CVPR ’23 Precognition Workshop 
+    date: 2023
     image:
-      path: "portfolio.png" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
-    date: 05/2022 &ndash; Developing
-    title: Grape-Theme
-    summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
-    contents:
-        - title: 1. Portfolio Page
-          image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags Page
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+      path: "2body/model_ext.png" # path: assets/project/
+      alt: "Teaser of the paper"
+    webpage: https://www.pinlab.org/bestpractices2body
 
 - project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 &ndash; Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  
+    title: About latent roles in forecasting players in team sports 
+    authors: Luca Scofano,  Alessio Sampieri,  Giuseppe Re,  Matteo Almanza,  Alessandro Panconesi,  and Fabio Galasso
+    event: ICLR '23 AI4ABM Workshop 
+    date: 2023
+    image:
+      path: "nba/teaser.png" # path: assets/project/
+      alt: "Teaser of the paper"
+    webpage: https://www.pinlab.org/aboutlatentroles
+
+# - project :
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+#     image:
+#       path: "portfolio.png" # path: assets/project/
+#       alt: "A screenshot of the portfolio page"
+#     date: 05/2022 &ndash; Developing
+#     title: Grape-Theme
+#     summary: Academic portfolio jekyll theme.
+#     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+#     contents:
+#         - title: 1. Portfolio Page
+#           image:
+#             path: portfolio.png
+#             alt: "A screenshot of the portfolio page"
+#           description: <li>Concise portfolio page</li>
+#             <li>Recent publications</li>
+#             <li>Projects</li>
+#         - title: 2. Optional Blog Functionality
+#           image:
+#             path: home.png
+#             alt: "A screenshot of the blog page"
+#           description: <li>Responsive Layout</li>
+#             <li>Tags</li> 
+#             <li>Pagination</li>
+#         - title: 3. Tags Page
+#           image:
+#             path: tags.png
+#             alt: "A screenshot of the tags page"
+#           description: <li>Responsive Layout</li> 
+#             <li>Tags</li> 
+
+# - project:
+#     url:  # Full URL
+#     image: # path: assets/project/
+#     date: 06/2019 &ndash; Developing
+#     title: Dummy project
+#     summary: This is a Dummy
+#     description:  

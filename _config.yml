@@ -4,7 +4,7 @@ baseurl:
 # Features Setting
 # Turn subpages on or off
 publications: True
-presentations: True
+presentations: False
 blog: False
 people: True
 projects: True

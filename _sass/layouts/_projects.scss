@@ -16,49 +16,23 @@
         color:#fff;
         margin-bottom: 30px;
     }
-    .wrapper {
-        list-style-type: none;
-        display: grid;
-        grid-template-columns: repeat(3 , 1fr);
-        @media (max-width: 991px) {
-            grid-template-columns: repeat(2 , 1fr);
-         }
-        margin-top: 70px;
+    .img-wrap {
+        img {
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+        }
 
-        grid-gap: 40px;
-        grid-template-rows: auto;
-        .grid-cell{
-            .name {
-                font-weight: bolder;
-                font-style: normal;
-                
-                
-            }
-            .img-wrap {
-                img {
-                    width: 150px;
-                    height: 150px;
-                    border-radius: 55%;
-                      
-                }
-            }
-            .event {
-            }
-            .date {
-                font-style: normal;
-                margin-left: 0.5rem;
-            }
-         }
-      }
-      
-    ol.people-list{
+    ol.project-list{
+        margin-top: 70px;
         list-style-type: none;
         li {
             font-size: 1.05rem;
             margin-bottom: 1.5rem;
-            .name {
+            .title {
                 font-weight: bolder;
                 font-style: normal;
+                font-size: 22px;
             }
             .event {
             }

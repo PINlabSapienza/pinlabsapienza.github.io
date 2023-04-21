@@ -12,4 +12,3 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
 end
 
-gem "jekyll", "~> 4.3"

@@ -8,13 +8,13 @@ layout: page
     {% for _ in site.data.projects %}
       {% assign project = _.project %}
       <li>
-        <em class="title">{{ project.title }}</em>
+        <em class="title"> <a href="{{ project.webpage }}" class="btn btn-sm z-depth-0" role="button">{{project.title}}</a> </em>
         <p class="authors">{{ project.authors | markdownify }}</p>
         <p class="event">{{ project.event | markdownify }}</p>
         <div class="links">
-          {%- if project.webpage %}
+          <!-- {%- if project.webpage %}
             [<a href="{{ project.webpage }}" class="btn btn-sm z-depth-0" role="button">Webpage</a>]
-          {%- endif %}
+          {%- endif %} -->
           {% if project.image %}
           <div class="img-wrap">
             <img src="{{ project.image.path | prepend: '/assets/img/projects/' | relative_url }}" alt="{{ project.image.alt }}" width="400" height="500">

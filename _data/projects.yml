@@ -7,6 +7,16 @@
       path: "2body/model_ext.png" # path: assets/project/
       alt: "Teaser of the paper"
     webpage: https://www.pinlab.org/bestpractices2body
+    
+- project:
+    title: Are we certain it's anomalous? 
+    authors: Alessandro Flaborea, Bardh Prenkaj, Bharti Munjal, Marco Aurelio Sterpa, Dario Aragona, Luca Podo and Fabio Galasso
+    event: CVPR '23 Visual Anomaly and Novelty Detection (VAND) Workshop 
+    date: 2023
+    image:
+      path: "hypad/teaser_hypad.png" # path: assets/project/
+      alt: "Teaser of the paper"
+    webpage: https://www.pinlab.org/hypad
 
 - project:
     title: About latent roles in forecasting players in team sports 
@@ -17,6 +27,10 @@
       path: "nba/teaser.png" # path: assets/project/
       alt: "Teaser of the paper"
     webpage: https://www.pinlab.org/aboutlatentroles
+
+
+
+
 
 # - project :
 #     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 

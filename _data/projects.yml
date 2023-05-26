@@ -21,7 +21,7 @@
 - project:
     title: About latent roles in forecasting players in team sports 
     authors: Luca Scofano,  Alessio Sampieri,  Giuseppe Re,  Matteo Almanza,  Alessandro Panconesi,  and Fabio Galasso
-    event: ICLR '23 AI4ABM Workshop 
+    event: ICLR '23 Workshop on Agent-Based Modelling (AI4ABM) 
     date: 2023
     image:
       path: "nba/teaser.png" # path: assets/project/

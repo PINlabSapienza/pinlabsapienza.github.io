@@ -1,7 +1,7 @@
 - people:
   image: \assets\img\people\fab_pic.png # do not change
   name: Fabio Galasso
-  status: Head of the lab
+  status: Head of the lab & Associate Professor
 
   social:
     webpage: https://fgalasso.bitbucket.io/
@@ -47,7 +47,7 @@
 #     instagram:
 
 - people:
-  image: \assets\img\people\edo2.gif  # do not change
+  image: \assets\img\people\indro.png  # do not change
   name: Indro Spinelli
   status: Assistant Professor
 

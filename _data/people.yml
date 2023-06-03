@@ -46,6 +46,29 @@
 #     facebook:
 #     instagram:
 
+- people:
+  image: \assets\img\people\edo2.gif  # do not change
+  name: Indro Spinelli
+  status: Assistant Professor
+
+  social:
+    webpage: 
+    orcid: 0000-0003-1963-3548
+    scholar: 0glmB_UAAAAJ
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin: https://www.linkedin.com/in/indro-spinelli-770380123/  
+    github: spindro
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: IndroSpinelli
+    youtube:
+    facebook:
+    instagram:
 
 
 

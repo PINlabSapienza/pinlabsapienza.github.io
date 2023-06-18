@@ -9,6 +9,7 @@ blog: False
 people: True
 projects: True
 multibody: True
+halo: True
 
 # Language of the website
 lang: en

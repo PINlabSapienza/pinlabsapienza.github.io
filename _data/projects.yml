@@ -1,4 +1,13 @@
 - project:
+    title: Hyperbolic Active Learning for Semantic Segmentation under Domain Shift 
+    authors: Luca Franco, Paolo Mandica, B1, B2 and Fabio Galasso
+    date: 2023
+    image:
+      path: "halo/halo.png" # path: assets/project/
+      alt: "Teaser of the paper"
+    webpage: https://www.pinlab.org/halo
+
+- project:
     title: Best Practices for 2-Body Pose Forecasting 
     authors: Muhammad Rameez Ur Rahman*,  Luca Scofano*,  Edoardo De Matteis,  Alessandro Flaborea,  Alessio Sampieri,  and Fabio Galasso
     event: CVPR ’23 Precognition Workshop 

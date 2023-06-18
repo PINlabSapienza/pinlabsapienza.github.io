@@ -1,0 +1,55 @@
+---
+layout: page
+---
+<div id="halo">
+    <section class="bg"></section>
+    <h1 class="title">{{ page.title }}</h1>
+    <div class="wrapper">
+    </div>
+
+    <div align="center">
+        <h1>Hyperbolic Active Learning for Semantic Segmentation under Domain Shift</h1>
+        <!-- <h2>CVPR Visual Anomaly and Novelty Detection (VAND) Workshop &#39;23</h2> -->
+        <h3> <i>Luca Franco, Paolo Mandica, B1, B2 and Fabio Galasso</i></h3>
+         <h4> <i>Sapienza University of Rome, Italy&ensp;&ensp;&ensp;&ensp;, Berkeley, University of California</i></h4>
+        </div>
+        
+        <hr>
+        <p align="center"><button type="button" class="btn btn-primary"><a href="#abstract">Abstract</a></button>
+        <!-- <button type="button" class="btn btn-primary"><a href="https://arxiv.org/abs/2211.09224">Paper</a></button> -->
+        <!-- <button type="button" class="btn btn-primary"><a href="#poster-and-slides">Poster and Slides</a></button> -->
+        <!-- <button type="button" class="btn btn-primary"><a href="#talk">Talk</a></button> -->
+        <!-- <button type="button" class="btn btn-primary"><a href="https://github.com/aleflabo/HypAD">Code</a></button></p> -->
+
+        <hr>
+        <p align="center">
+            <img src="\assets\img\projects\halo\halo.png" width="700" height="600" alt="centered image" />
+        </p>
+        
+        <hr>
+        <h1 id="abstract">Abstract</h1>
+        <p> For the task of semantic segmentation (SS) under domain shift, active learning
+            (AL) acquisition strategies based on image regions and pseudo labels are state-of-the-art (SoA). The presence of diverse pseudo-labels within a region identifies
+            pixels between different classes, which is a labeling efficient active learning data
+            acquisition strategy. However, by design, pseudo-label variations are limited to
+            only select the contours of classes, limiting the final AL performance.</p>
+            <p> We approach AL for SS in the Poincaré hyperbolic ball model for the first time
+            and leverage the variations of the radii of pixel embeddings within regions as a
+            novel data acquisition strategy. This stems from a novel geometric property of a
+            hyperbolic space trained without enforced hierarchies, which we experimentally
+            prove. Namely, classes are mapped into compact hyperbolic areas with a comparable intra-class radii variance, as the model places classes of increasing explainable
+            difficulty at denser hyperbolic areas, i.e. closer to the Poincaré ball edge. The
+            variation of pixel embedding radii identifies well the class contours, but they also
+            select a few intra-class peculiar details, which boosts the final performance.</p>
+            <p> Our proposed HALO (Hyperbolic Active Learning Optimization) surpasses the
+            supervised learning performance for the first time in AL for SS under domain shift,
+            by only using a small portion of labels (i.e., 1%). The extensive experimental
+            analysis is based on two established benchmarks, i.e. GTAV → Cityscapes and
+            SYNTHIA → Cityscapes, where we set a new SoA. The code will be released
+        </p>
+
+
+        
+
+
+</div>

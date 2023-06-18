@@ -1,6 +1,6 @@
 - project:
     title: Hyperbolic Active Learning for Semantic Segmentation under Domain Shift 
-    authors: Luca Franco, Paolo Mandica, B1, B2 and Fabio Galasso
+    authors: Luca Franco, Paolo Mandica, Konstantinos Kallidromitis, Yu-Teng Li, Devin Guillory and Fabio Galasso
     date: 2023
     image:
       path: "halo/halo.png" # path: assets/project/

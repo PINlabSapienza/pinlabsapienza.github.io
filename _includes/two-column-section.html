@@ -1,0 +1,12 @@
+<section id="two-column-section">
+    <div class="column">
+        <a class="twitter-timeline" data-height="600" href="https://twitter.com/SapienzaPINlab?ref_src=twsrc%5Etfw">Tweets by PINlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="column">
+      <div class="recentpubs-wrap">
+      <p class="title">{{ site.theme_settings.recentpubs_title }}</p>
+      [<a class="btn" href="{{ '/publications' | relative_url }}" title="Publications">All Publications</a>]
+      {% bibliography --template recentpubstemplate --max 3 %}
+    </div>
+    </div>
+  </section>

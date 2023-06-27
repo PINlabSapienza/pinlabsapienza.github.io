@@ -1,0 +1,28 @@
+#two-column-section {
+    position: relative;
+    overflow: hidden;
+    columns: 2;
+    column-gap: 15px;
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap to a new line */
+    justify-content: center; /* Center the columns horizontally */
+  
+    .column {
+        // @extend %page-padding;
+        padding-top: 50px!important;
+        margin-bottom: 55px;
+        width: 100%;
+        max-width: 700px; /* Adjust the maximum width of the columns as needed */
+      }
+    .recentpubs-wrap {
+    p.title {
+        color: $theme-dark;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    }
+    .bibliography {
+    margin-top: 1rem;
+    }
+    
+}

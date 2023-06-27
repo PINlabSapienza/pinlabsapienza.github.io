@@ -1,0 +1,9 @@
+#twitter {
+    position: relative;
+    overflow: hidden;
+    .twitter-wrap {
+      @extend %page-padding;
+      padding-top: 50px!important;
+      margin-bottom: 55px;
+    }
+  }

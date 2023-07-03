@@ -380,7 +380,7 @@
 
 
 - people:
-  image: \assets\img\people\max.gif  # do not change
+  image: \assets\img\people\max.jpg  # do not change
   name: Massimiliano Pappa
   status: PhD Student
 

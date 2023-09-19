@@ -13,6 +13,22 @@ References
 %website     = {https://www.google.com},
 %latex_src   = {https://www.google.com},
 
+@InProceedings{scofano2023staged,
+  title={Staged Contact-Aware Global Human Motion Forecasting},
+  author={Scofano, Luca and Sampieri, Alessio and Schiele, Elisabeth and De Matteis, Edoardo and Leal-Taixé, Laura  and Galasso, Fabio},
+  booktitle={British Machine Vision Conference (BMVC)},
+  year={2023},
+  bibtex_show = true,
+  url = {https://arxiv.org/abs/2309.08947},
+  abstract = {Scene-aware global human motion forecasting is critical for manifold applications, including virtual reality, robotics, and sports. The task combines human trajectory and pose forecasting within the provided scene context, which represents a significant challenge.
+So far, only Mao et al. NeurIPS'22 have addressed scene-aware global motion, cascading the prediction of future scene contact points and the global motion estimation. They perform the latter as the end-to-end forecasting of future trajectories and poses. However, end-to-end contrasts with the coarse-to-fine nature of the task and it results in lower performance, as we demonstrate here empirically.
+We propose a STAGed contact-aware global human motion forecasting STAG, a novel three-stage pipeline for predicting global human motion in a 3D environment. We first consider the scene and the respective human interaction as contact points. Secondly, we model the human trajectory forecasting within the scene, predicting the coarse motion of the human body as a whole. The third and last stage matches a plausible fine human joint motion to complement the trajectory considering the estimated contacts.
+Compared to the state-of-the-art (SoA), STAG achieves a 1.8% and 16.2% overall improvement in pose and trajectory prediction, respectively, on the scene-aware GTA-IM dataset. A comprehensive ablation study confirms the advantages of staged modeling over end-to-end approaches. Furthermore, we establish the significance of a newly proposed temporal counter called the "time-to-go", which tells how long it is before reaching scene contact and endpoints. Notably, STAG showcases its ability to generalize to datasets lacking a scene and achieves a new state-of-the-art performance on CMU-Mocap, without leveraging any social cues. Our code is released at: this https URL
+
+}
+}
+
+
 @InProceedings{flaborea2023mocodad,
   title={Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection},
   author={Flaborea, Alessandro and Collorone, Luca and D’Amely Di Melendugno, Guido Maria and D'Arrigo, Stefano and Prenkaj, Bardh and Galasso, Fabio},

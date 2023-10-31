@@ -1,4 +1,14 @@
 - project:
+    title: Staged Contact-Aware Global Human Motion Forecasting 
+    authors: Luca Scofano,  Alessio Sampieri,  Elisabeth Schiele,  Edoardo De Matteis,  Laura Leal-Taixé,  and Fabio Galasso
+    event: BMVC 2023  
+    date: 2023
+    image:
+      path: "stag/teaser.png" # path: assets/project/
+      alt: "Pictorial of the model"
+    webpage: https://www.pinlab.org/stag
+
+- project:
     title: Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection 
     authors: Alessandro Flaborea, Luca Collorone, Guido D'Amely, Stefano D'Arrigo, Bardh Prenkaj and Fabio Galasso
     event: ICCV 2023  

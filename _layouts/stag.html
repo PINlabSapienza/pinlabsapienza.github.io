@@ -1,0 +1,46 @@
+---
+layout: page
+---
+<div id="stag">
+    <section class="bg"></section>
+    <h1 class="title">{{ page.title }}</h1>
+    <div class="wrapper">
+    </div>
+
+    <div align="center">
+        <h1>Staged Contact-Aware Global Human Motion Forecasting</h1>
+        <h2><i>British Machine Vision Conference (BMVC) 2023</i></h2>
+        <h5 style="color:grey"> <i>Luca Scofano,  Alessio Sampieri,  Elisabeth Schiele,  Edoardo De Matteis,  Laura Leal-Taixé,  and Fabio Galasso
+</i>
+        </h5>
+        <!-- <h5 style="color:grey"> <i>Sapienza University of Rome, Italy</i></h5> -->
+    </div>
+
+    <hr>
+    <p align="center"><button type="button" class="btn btn-primary"><a href="#abstract">Abstract</a></button>
+        <!-- <button type="button" class="btn btn-primary"><a href="#qualitative">Paper Presentation</a></button> -->
+        <button type="button" class="btn btn-primary"><a href="https://arxiv.org/abs/2309.08947">Paper</a></button>
+        <!-- <button type="button" class="btn btn-primary"><a href="#poster-and-slides">Poster and Slides</a></button> -->
+        <!-- <button type="button" class="btn btn-primary"><a href="#talk">Talk</a></button> -->
+        <button type="button" class="btn btn-primary"><a
+                href="https://github.com/L-Scofano/STAG">Code</a></button>
+    
+                <hr>
+
+            </p>
+    <p align="center">
+        <img src="\assets\img\projects\stag\teaser.png" width="700" height="600" alt="centered image" />
+    </p>
+    
+
+    <hr>
+    <h1 id="abstract">Abstract</h1>
+    Scene-aware global human motion forecasting is critical for manifold applications, including virtual reality, robotics, and sports. The task combines human trajectory and pose forecasting within the provided scene context, which represents a significant challenge. So far, only Mao et al. NeurIPS’22 have addressed scene-aware global motion, cascading the prediction of future scene contact points and the global motion estimation. They perform the latter as the end-to-end forecasting of future trajectories and poses. However, end-to-end contrasts with the coarse-to-fine nature of the task and it results in lower performance, as we demonstrate here empirically. We propose a STAGed contact-aware global human motion forecasting STAG, a novel three-stage pipeline for predicting global human motion in a 3D environment. We first consider the scene and the respective human interaction as contact points. Secondly, we model the human trajectory forecasting within the scene, predicting the coarse motion of the human body as a whole. The third and last stage matches a plausible fine human joint motion to complement the trajectory considering the estimated contacts. Compared to the state-of-the-art (SoA), STAG achieves a 1.8% and 16.2% overall improvement in pose and trajectory prediction, respectively, on the scene-aware GTA-IM dataset. A comprehensive ablation study confirms the advantages of staged modeling over end-to-end approaches. Furthermore, we establish the significance of a newly proposed temporal counter called the "time-to-go", which tells how long it is before reaching scene contact and endpoints. Notably, STAG showcases its ability to generalize to datasets lacking a scene and achieves a new state-of-the-art performance on CMU-Mocap, without leveraging any social cues.
+
+    <!-- <hr>
+    <h1 id="qualitative">Paper Presentation</h1>
+    <p>  </p> -->
+    
+
+
+</div>

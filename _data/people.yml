@@ -430,6 +430,110 @@
     instagram:
 
 
+- people:
+  image: \assets\img\people\stefano.gif  # do not change
+  name: Arturo Ghinassi
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:   
+    github: 
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+- people:
+  image: \assets\img\people\edo2.gif  # do not change
+  name: Matteo Gioia
+  status: PhD Student
+
+  social:
+    webpage: #https://www.youtube.com/watch?v=bUcG7vd_7aQ
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:   # Full URL 
+    github: 
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram: 
+
+
+
+- people:
+  image: \assets\img\people\max.gif  # do not change
+  name: Leonardo Plini
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github:
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+
+- people:
+  image: \assets\img\people\danie.gif  # do not change
+  name: Valentino Sacco 
+  status: PhD Student
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  
+    github: 
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+
+
+
 
 
 

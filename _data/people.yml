@@ -456,20 +456,20 @@
 
 
 - people:
-  image: \assets\img\people\edo2.gif  # do not change
+  image: \assets\img\people\matteo.jpeg  # do not change
   name: Matteo Gioia
   status: PhD Student
 
   social:
-    webpage: #https://www.youtube.com/watch?v=bUcG7vd_7aQ
+    webpage:  https://matteogioia.github.io/ #https://www.youtube.com/watch?v=bUcG7vd_7aQ
     orcid: 
     scholar: 
     publons: 
     research_gate: 
     dblp:  # Full URL
     semantic_scholar:  # Full URL
-    linkedin:   # Full URL 
-    github: 
+    linkedin:  https://www.linkedin.com/in/matteo-gioia-dev/  # Full URL 
+    github: MatteoGioia 
     gitlab: 
     bitbucket: 
     google_plus:
@@ -494,7 +494,7 @@
     research_gate: 
     dblp:  # Full URL
     semantic_scholar:  # Full URL
-    linkedin:  
+    linkedin: 
     github:
     gitlab: 
     bitbucket: 
@@ -508,7 +508,7 @@
 
 
 - people:
-  image: \assets\img\people\danie.gif  # do not change
+  image: \assets\img\people\valentino.jpeg  # do not change
   name: Valentino Sacco 
   status: PhD Student
 

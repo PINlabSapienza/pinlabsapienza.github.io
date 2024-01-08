@@ -2,8 +2,6 @@
 {% if entry.type == "thesis" -%}
   {{reference}}
 {%- else %}
-  <!-- Title -->
-  <div class="title">{{entry.title}}</div>
   <!-- Author -->
   <div class="author">
     {%- for author in entry.author_array -%}
@@ -90,6 +88,9 @@
   {%- if entry.year -%}
     {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}{{ entry.year }}{%- endcapture -%}
   {%- endif -%}
+  <!-- Title -->
+  <div class="title_pub">{{entry.title}}</div>
+
   <div class="third-line">
     {{ thirdLine | strip }}
   </div>

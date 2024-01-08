@@ -15,11 +15,11 @@ ol.bibliography{
     margin-top: 0;
 
     li {
-        margin-bottom: 2rem;
-        .title  {
+        margin-bottom: 0.5rem;
+        .title_pub  {
             font-weight: bolder;
-            font-size: 22px;
-            margin-bottom: 1rem;
+            font-size: 13px;
+            // margin-bottom: 1rem;
         }
         .author  {
             a {
@@ -34,10 +34,13 @@ ol.bibliography{
                 border-bottom: 1px solid;
                 
                 font-style: normal;
+                
             }
+            font-size: 13px;
         }
         .third-line {
             font-style: italic;
+            font-size: 13px;
         }
         .hidden {
             font-size: 0.875rem;
@@ -54,9 +57,11 @@ ol.bibliography{
         p {
             line-height: 1.4em;
             margin: 10px;
+            font-size: 13px;
+
         }
         pre {
-            font-size: 1em;
+            font-size: 13px;
             line-height: 1.4em;
             padding: 10px;
         }
@@ -73,6 +78,16 @@ ol.bibliography{
         }
         div.abstract.hidden.open {
             border-color: $divider-color;
+            }
+        a {
+            font-size: 13px;
+        }
+        span {
+            font-size: 13px;
+        }
+              
+        div.links{ 
+            font-size: 13px;
         }
     }
 }

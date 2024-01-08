@@ -10,24 +10,24 @@
       [<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>]
     {%- endif %}
     {%- if entry.arxiv %}
-      [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>]
+      [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="arxiv btn btn-sm z-depth-0" role="button">arXiv</a>]
     {%- endif %}
     {%- if entry.bibtex_show %}
       [<a class="bibtex btn btn-sm z-depth-0" role="button">Cite</a>]
     {%- endif %}
     {%- if entry.html %}
-      [<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>]
+      [<a href="{{ entry.html }}" class="html btn btn-sm z-depth-0" role="button">HTML</a>]
     {%- endif %}
     {%- if entry.pdf %}
       {% if entry.pdf contains '://' -%}
-        [<a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>]
+        [<a href="{{ entry.pdf }}" class="pdf btn btn-sm z-depth-0" role="button">PDF</a>]
       {%- else -%}
         [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>]
       {%- endif %}
     {%- endif %}
     {%- if entry.supp %}
       {% if entry.supp contains '://' -%}
-        [<a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>]
+        [<a href="{{ entry.supp }}" class="supp btn btn-sm z-depth-0" role="button">Supp</a>]
       {%- else -%}
         [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>]
       {%- endif %}
@@ -56,7 +56,7 @@
       [<a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>]
     {%- endif %}
     {%- if entry.url %}
-      [<a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>]
+      [<a href="{{ entry.url }}" class="url btn btn-sm z-depth-0" role="button">Paper</a>]
     {%- endif %}
     {%- if entry.doi %}
       [<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" class="btn btn-sm z-depth-0" role="button">DOI</a>]

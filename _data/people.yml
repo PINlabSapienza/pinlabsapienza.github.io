@@ -482,7 +482,7 @@
 
 
 - people:
-  image: \assets\img\people\max.gif  # do not change
+  image: \assets\img\people\leo.jpg  # do not change
   name: Leonardo Plini
   status: PhD Student
 
@@ -494,8 +494,8 @@
     research_gate: 
     dblp:  # Full URL
     semantic_scholar:  # Full URL
-    linkedin: 
-    github:
+    linkedin: https://www.linkedin.com/in/leonardo-plini-038379177/
+    github: PliniLeonardo 
     gitlab: 
     bitbucket: 
     google_plus:

@@ -24,21 +24,36 @@
         }
 
     ol.project-list{
-        margin-top: 70px;
+        margin-top: 50px;
         list-style-type: none;
         li {
-            font-size: 1.05rem;
-            margin-bottom: 1.5rem;
+            font-size: .05rem;
+            margin-bottom: 0.5rem;
             .title {
                 font-weight: bolder;
                 font-style: normal;
-                font-size: 22px;
+                font-size: 13px;
+                margin-bottom: 0.5rem;
             }
             .event {
             }
             .date {
                 font-style: normal;
                 margin-left: 0.5rem;
+            }
+            a.btn{
+                color: $theme-dark;
+                text-decoration: underline;
+                padding-left: 0.2rem;
+                padding-right: 0.2rem;
+                font-size: 15px;
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+            p {
+                line-height: 1.4em;
+                font-size: 15px;
             }
         }
     }

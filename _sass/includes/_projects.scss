@@ -5,11 +5,11 @@
     @extend %page-padding;
     padding-top: 50px!important;
     margin-bottom: 55px;
-    p.title {
+    div.title {
       padding-left: 10px;
       color: $theme-dark;
-      font-size: 25px;
-      font-weight: 600;
+      font-size: 15px;
+      // font-weight: 600;
     }
   }
   .card-container {

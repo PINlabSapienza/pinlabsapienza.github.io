@@ -25,7 +25,7 @@
 # - people:
 #   image: \assets\img\people\smile.png  # do not change
 #   name: Bharti Munjal
-#   status: PhD Student
+#   status: Ph.D. Student
 
 #   social:
 #     webpage: 
@@ -71,11 +71,10 @@
     instagram:
 
 
-
 - people:
   image: \assets\img\people\guido.png  # do not change
-  name: Guido Maria D'Amely di Melendugno
-  status: PhD Student
+  name: Guido Maria D'Amely di Melendugno, Ph.D.
+  status: 
 
   social:
     webpage: 
@@ -99,11 +98,11 @@
 
 - people:
   image: \assets\img\people\aleflabo.png
-  name: Alessandro Flaborea
-  status: PhD Student
+  name: Alessandro Flaborea, Ph.D.
+  status: 
 
   social:
-    webpage: https://alessandroflaborea.me/
+    webpage: https://aleflabo.github.io/
     email:  # Full email address, e.g. "sample@google.com"
     orcid: 
     scholar: HHDHIVoAAAAJ
@@ -125,8 +124,8 @@
 
 - people:
   image: \assets\img\people\lucaF.jpeg  # do not change
-  name: Luca Franco
-  status: PhD Student
+  name: Luca Franco, Ph.D.
+  status: 
 
   social:
     webpage: 
@@ -149,10 +148,11 @@
     instagram: 
 
 
+
 - people:
   image: \assets\img\people\ram.jpg  # do not change
-  name: Muhammad Rameez Ur Rahman
-  status: PhD Student
+  name: Muhammad Rameez Ur Rahman, Ph.D.
+  status: Now at Ca' Foscari University of Venice
 
   social:
     webpage: 
@@ -175,7 +175,7 @@
 - people:
   image: \assets\img\people\giovanni.jpg  # do not change
   name: Giovanni Ficarra
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage:
@@ -202,7 +202,7 @@
 - people:
   image: \assets\img\people\laura.jpg  # do not change
   name: Laura Laurenti
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: 
@@ -228,7 +228,7 @@
 - people:
   image: \assets\img\people\paolom.png
   name: Paolo Mandica
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: https://paolomandica.github.io/
@@ -253,7 +253,7 @@
 - people:
   image: \assets\img\people\alessio.jpeg # do not change
   name: Alessio Sampieri
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
@@ -279,7 +279,7 @@
 - people:
   image: \assets\img\people\lucaS.jpg  # do not change
   name: Luca Scofano
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: 
@@ -304,7 +304,7 @@
 - people:
   image: \assets\img\people\lucaC.png # do not change
   name: Luca Collorone
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     Webpage:
@@ -331,7 +331,7 @@
 - people:
   image: \assets\img\people\stefano.jpeg  # do not change
   name: Stefano D’Arrigo
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: https://phd.uniroma1.it/web/STEFANO-D'ARRIGO_nP1960500_IT.aspx
@@ -356,7 +356,7 @@
 - people:
   image: \assets\img\people\edo.jpeg  # do not change
   name: Edoardo De Matteis
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: #https://www.youtube.com/watch?v=bUcG7vd_7aQ
@@ -382,7 +382,7 @@
 - people:
   image: \assets\img\people\max.jpg  # do not change
   name: Massimiliano Pappa
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: 
@@ -408,7 +408,7 @@
 - people:
   image: \assets\img\people\danie.jpeg  # do not change
   name: Daniele Trappolini 
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: 
@@ -433,7 +433,7 @@
 # - people:
 #   image: \assets\img\people\stefano.gif  # do not change
 #   name: Arturo Ghinassi
-#   status: PhD Student
+#   status: Ph.D. Student
 
 #   social:
 #     webpage: 
@@ -458,7 +458,7 @@
 - people:
   image: \assets\img\people\matteo.jpeg  # do not change
   name: Matteo Gioia
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage:  https://matteogioia.github.io/ #https://www.youtube.com/watch?v=bUcG7vd_7aQ
@@ -484,7 +484,7 @@
 - people:
   image: \assets\img\people\leo.jpg  # do not change
   name: Leonardo Plini
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: 
@@ -510,7 +510,7 @@
 - people:
   image: \assets\img\people\valentino.jpeg  # do not change
   name: Valentino Sacco 
-  status: PhD Student
+  status: Ph.D. Student
 
   social:
     webpage: 

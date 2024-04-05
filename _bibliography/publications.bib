@@ -19,7 +19,10 @@ References
   author={Flaborea, Alessandro and D’Amely Di Melendugno, Guido Maria and Plini, Leonardo and Scofano, Luca and De Matteis, Edoardo and Furnari, Antonino and Farinella, Giovanni Maria and Galasso, Fabio},
   booktitle={Computer Vision and Pattern Recognition (CVPR)},
   year={2024},
+  url = {https://arxiv.org/abs/2404.01933},
   bibtex_show = true,
+  abstract = {Promptly identifying procedural errors from egocentric videos in an online setting is highly challenging and valuable for detecting mistakes as soon as they happen. This capability has a wide range of applications across various fields, such as manufacturing and healthcare. The nature of procedural mistakes is open-set since novel types of failures might occur, which calls for one-class classifiers trained on correctly executed procedures. However, no technique can currently detect open-set procedural mistakes online. We propose PREGO, the first online one-class classification model for mistake detection in PRocedural EGOcentric videos. PREGO is based on an online action recognition component to model the current action, and a symbolic reasoning module to predict the next actions. Mistake detection is performed by comparing the recognized current action with the expected future one. We evaluate PREGO on two procedural egocentric video datasets, Assembly101 and Epic-tent, which we adapt for online benchmarking of procedural mistake detection to establish suitable benchmarks, thus defining the Assembly101-O and Epic-tent-O datasets, respectively.
+}
 }
 
 
@@ -42,13 +45,16 @@ Compared to the state-of-the-art (SoA), STAG achieves a 1.8% and 16.2% overall i
 @InProceedings{flaborea2023mocodad,
   title={Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection},
   author={Flaborea, Alessandro and Collorone, Luca and D’Amely Di Melendugno, Guido Maria and D'Arrigo, Stefano and Prenkaj, Bardh and Galasso, Fabio},
-  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year={2023},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year      = {2023},
+  pages     = {10318-10329},
   bibtex_show = true,
   url = {https://arxiv.org/abs/2307.07205},
   abstract = {Anomalies are rare and anomaly detection is often therefore framed as One-Class Classification (OCC), i.e. trained solely on normalcy. Leading OCC techniques constrain the latent representations of normal motions to limited volumes and detect as abnormal anything outside, which accounts satisfactorily for the openset'ness of anomalies. But normalcy shares the same openset'ness property, since humans can perform the same action in several ways, which the leading techniques neglect. We propose a novel generative model for video anomaly detection (VAD), which assumes that both normality and abnormality are multimodal. We consider skeletal representations and leverage state-of-the-art diffusion probabilistic models to generate multimodal future human poses. We contribute a novel conditioning on the past motion of people, and exploit the improved mode coverage capabilities of diffusion processes to generate different-but-plausible future motions. Upon the statistical aggregation of future modes, anomaly is detected when the generated set of motions is not pertinent to the actual future. We validate our model on 4 established benchmarks: UBnormal, HR-UBnormal, HR-STC, and HR-Avenue, with extensive experiments surpassing state-of-the-art results.
 }
 }
+
+
 
 @InProceedings{franco2023hyperbolic,
   title={HYperbolic Self-Paced Learning for Self-Supervised Skeleton-based Action Representations},

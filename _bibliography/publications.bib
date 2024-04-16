@@ -26,6 +26,20 @@ References
 }
 
 
+@article{scofano2024nba,
+title={About latent roles in forecasting players in team sports},
+journal = {Neural Processing Letters},
+volume = {56},
+pages = {1-12},
+year = {2024},
+doi = {https://doi.org/10.1007/s11063-024-11532-0},
+url = {https://link.springer.com/article/10.1007/s11063-024-11532-0},
+author={Scofano, Luca and Sampieri, Alessio and Re, Giuseppe and Almanza, Matteo and Panconesi, Alessandro and Galasso, Fabio},
+bibtex_show = true,
+abstract = {Forecasting players in sports has grown in popularity due to the potential for a tactical advantage and the applicability of such research to multi-agent interaction systems. Team sports contain a significant social component that influences interactions between teammates and opponents. However, it still needs to be fully exploited. In this work, we hypothesize that each participant has a specific function in each action and that role-based interaction is critical for predicting players’ future moves. We create RolFor, a novel end-to-end model for Role-based Forecasting. RolFor uses a new module we developed called Ordering Neural Networks (OrderNN) to permute the order of the players such that each player is assigned to a latent role. The latent role is then modeled with a RoleGCN. Thanks to its graph representation, it provides a fully learnable adjacency matrix that captures the relationships between roles and is subsequently used to forecast the players’ future trajectories. Extensive experiments on a challenging NBA basketball dataset back up the importance of roles and justify our goal of modeling them using optimizable models. When an oracle provides roles, the proposed RolFor compares favorably to the current state-of-the-art (it ranks first in terms of ADE and second in terms of FDE errors). However, training the end-to-end RolFor incurs the issues of differentiability of permutation methods, which we experimentally review. Finally, this work restates differentiable ranking as a difficult open problem and its great potential in conjunction with graph-based interaction models.
+}
+}
+
 @InProceedings{scofano2023staged,
   title={Staged Contact-Aware Global Human Motion Forecasting},
   author={Scofano, Luca and Sampieri, Alessio and Schiele, Elisabeth and De Matteis, Edoardo and Leal-Taixé, Laura  and Galasso, Fabio},

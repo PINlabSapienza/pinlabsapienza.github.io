@@ -189,13 +189,13 @@ abstract = {Considering the increasing aging of the population, multi-device mon
 
 }
 
-@article{franco2023halo,
+
+@InProceedings{franco2023halo,
       title={Hyperbolic Active Learning for Semantic Segmentation under Domain Shift}, 
       author={Luca Franco and Paolo Mandica and Konstantinos Kallidromitis and Devin Guillory and Yu-Teng Li and Fabio Galasso},
-      year={2023},
-      journal={arXiv preprint arXiv:2306.11180},
-      eprint={2306.11180},
-      archivePrefix={arXiv},
+      year={2024},
+      booktitle={International Conference on Machine Learning (ICML)},
+      bibtex_show = true,
       url = {https://arxiv.org/abs/2306.11180},
       abstract = {For the task of semantic segmentation (SS) under domain shift, active learning (AL) acquisition strategies based on image regions and pseudo labels are state-of-the-art (SoA). The presence of diverse pseudo-labels within a region identifies pixels between different classes, which is a labeling efficient active learning data acquisition strategy. However, by design, pseudo-label variations are limited to only select the contours of classes, limiting the final AL performance.
 We approach AL for SS in the Poincaré hyperbolic ball model for the first time and leverage the variations of the radii of pixel embeddings within regions as a novel data acquisition strategy. This stems from a novel geometric property of a hyperbolic space trained without enforced hierarchies, which we experimentally prove. Namely, classes are mapped into compact hyperbolic areas with a comparable intra-class radii variance, as the model places classes of increasing explainable difficulty at denser hyperbolic areas, i.e. closer to the Poincaré ball edge. The variation of pixel embedding radii identifies well the class contours, but they also select a few intra-class peculiar details, which boosts the final performance.

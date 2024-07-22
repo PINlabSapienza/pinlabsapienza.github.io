@@ -13,6 +13,56 @@ References
 %website     = {https://www.google.com},
 %latex_src   = {https://www.google.com},
 
+@article{trappolini2024cold,
+  title={Cold Diffusion Model for Seismic Denoising},
+  author={Trappolini, Daniele and Laurenti, Laura and Poggiali, Giulio, and Tinti, Elisa and Galasso, Fabio and Alberto, Michelini and Marone, Chris },
+  journal={Journal of Geophysical Research: Machine Learning and Computation},
+  year={2024},
+  bibtex_show = true,
+  url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024JH000179},
+  doi = {https://doi.org/10.1029/2024JH000179},
+  abstract = {Abstract Seismic waves contain information about the earthquake source, the geologic structure they traverse, and many forms of noise. Separating the noise from the earthquake is a difficult task because optimal parameters for filtering noise typically vary with time and, if chosen inappropriately, may strongly alter the original seismic waveform. Diffusion models based on Deep Learning have demonstrated remarkable capabilities in restoring images and audio signals. However, those models assume a Gaussian distribution of noise, which is not the case for typical seismic noise. Motivated by the effectiveness of “cold” diffusion models in speech enhancement, medical anomaly detection, and image restoration, we present a cold variant for seismic data restoration. We describe the first Cold Diffusion Model for Seismic Denoising (CDiffSD), including key design aspects, model architecture, and noise handling. Using metrics to quantify the performance of CDiffSD models compared to previous works, we demonstrate that it provides a new standard in performance. CDiffSD significantly improved the Signal to Noise Ratio by about 18\% compared to previous models. It also enhanced Cross-correlation by 6\%, showing a better match between denoised and original signals. Moreover, testing revealed a 50\% increase in the recall of P-wave picks for seismic picking. Our work show that CDiffSD outperforms existing benchmarks, further underscoring its effectiveness in seismic data denoising and analysis. Additionally, the versatility of this model suggests its potential applicability across a range of tasks and domains, such as GNSS, Lab Acoustic Emission, and Distributed Acoustic Sensing data, offering promising avenues for further utilization.},
+}
+
+}
+
+
+
+@article{damely24,
+ 
+  author = {Di Melendugno, Guido Maria D'Amely and Flaborea, Alessandro and Mettes, Pascal and Galasso, Fabio},
+  
+  keywords = {Robotics (cs.RO); Computer Vision and Pattern Recognition (cs.CV)},
+  
+  title = {Hyp2Nav: Hyperbolic Planning and Curiosity for Crowd Navigation},
+  journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+ 
+  year = {2024},
+  arxiv = {2407.13567},
+  bibtex_show = true,
+  abstract = {Autonomous robots are increasingly becoming a strong fixture in social environments. Effective crowd navigation requires not only safe yet fast planning, but should also enable interpretability and computational efficiency for working in real-time on embedded devices. In this work, we advocate for hyperbolic learning to enable crowd navigation and we introduce Hyp2Nav. Different from conventional reinforcement learning-based crowd navigation methods, Hyp2Nav leverages the intrinsic properties of hyperbolic geometry to better encode the hierarchical nature of decision-making processes in navigation tasks. We propose a hyperbolic policy model and a hyperbolic curiosity module that results in effective social navigation, best success rates, and returns across multiple simulation settings, using up to 6 times fewer parameters than competitor state-of-the-art models. With our approach, it becomes even possible to obtain policies that work in 2-dimensional embedding spaces, opening up new possibilities for low-resource crowd navigation and model interpretability. Insightfully, the internal hyperbolic representation of Hyp2Nav correlates with how much attention the robot pays to the surrounding crowds, e.g. due to multiple people occluding its pathway or to a few of them showing colliding plans, rather than to its own planned route.}
+}
+
+
+
+@article{flaborea24,
+  doi = {10.48550/ARXIV.2301.09489},
+  
+  
+  author = {Flaborea, Alessandro and Di Melendugno, Guido Maria D'Amely and D'arrigo, Stefano and Sterpa, Marco Aurelio and Sampieri, Alessio and Galasso, Fabio},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection},
+  journal={Pattern Recognition},
+ 
+  year = {2024},
+  arxiv = {2209.10250},
+  bibtex_show = true,
+  abstract = {Detecting the anomaly of human behavior is paramount to timely recognizing endangering situations, such as street fights or elderly falls. However, anomaly detection is complex since anomalous events are rare and because it is an open set recognition task, i.e., what is anomalous at inference has not been observed at training. We propose COSKAD, a novel model that encodes skeletal human motion by a graph convolutional network and learns to COntract SKeletal kinematic embeddings onto a latent hypersphere of minimum volume for Video Anomaly Detection. We propose three latent spaces: the commonly-adopted Euclidean and the novel spherical and hyperbolic. All variants outperform the state-of-the-art on the most recent UBnormal dataset, for which we contribute a human-related version with annotated skeletons. COSKAD sets a new state-of-the-art on the human-related versions of ShanghaiTech Campus and CUHK Avenue, with performance comparable to video-based methods. Source code and dataset will be released upon acceptance.}
+}
+
+
 @InProceedings{franco2023halo,
       title={Hyperbolic Active Learning for Semantic Segmentation under Domain Shift}, 
       author={Luca Franco and Paolo Mandica and Konstantinos Kallidromitis and Devin Guillory and Yu-Teng Li and Fabio Galasso},
@@ -202,22 +252,6 @@ abstract = {Considering the increasing aging of the population, multi-device mon
 
 
 
-@article{flaborea23,
-  doi = {10.48550/ARXIV.2301.09489},
-  
-  
-  author = {Flaborea, Alessandro and Di Melendugno, Guido Maria D'Amely and D'arrigo, Stefano and Sterpa, Marco Aurelio and Sampieri, Alessio and Galasso, Fabio},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection},
-  journal={arXiv preprint arXiv:2301.09489},
- 
-  year = {2023},
-  arxiv = {2209.10250},
-  bibtex_show = true,
-  abstract = {Detecting the anomaly of human behavior is paramount to timely recognizing endangering situations, such as street fights or elderly falls. However, anomaly detection is complex since anomalous events are rare and because it is an open set recognition task, i.e., what is anomalous at inference has not been observed at training. We propose COSKAD, a novel model that encodes skeletal human motion by a graph convolutional network and learns to COntract SKeletal kinematic embeddings onto a latent hypersphere of minimum volume for Video Anomaly Detection. We propose three latent spaces: the commonly-adopted Euclidean and the novel spherical and hyperbolic. All variants outperform the state-of-the-art on the most recent UBnormal dataset, for which we contribute a human-related version with annotated skeletons. COSKAD sets a new state-of-the-art on the human-related versions of ShanghaiTech Campus and CUHK Avenue, with performance comparable to video-based methods. Source code and dataset will be released upon acceptance.}
-}
 
 
 

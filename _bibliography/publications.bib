@@ -14,20 +14,26 @@ References
 %latex_src   = {https://www.google.com},
 
 
-@article{scofano2024followinghumanthreadsocial,
-      title={Following the Human Thread in Social Navigation}, 
-      author={Luca Scofano and Alessio Sampieri and Tommaso Campari and Valentino Sacco and Indro Spinelli and Lamberto Ballan and Fabio Galasso},
+@inproceedings{rahman2024ovoseopenvocabularysemanticsegmentation,
+      title={OVOSE: Open-Vocabulary Semantic Segmentation in Event-Based Cameras}, 
+      author={Muhammad Rameez Ur Rahman and Jhony H. Giraldo and Indro Spinelli and Stéphane Lathuilière and Fabio Galasso},
       year={2024},
-      eprint={2404.11327},
-      archivePrefix={arXiv},
-      journal={arXiv preprint arXiv:2404.11327},
-      arxiv = {2404.11327},
-      primaryClass={cs.RO},
-      abstract={The success of collaboration between humans and robots in shared environments relies on the robot's real-time adaptation to human motion. Specifically, in Social Navigation, the agent should be close enough to assist but ready to back up to let the human move freely, avoiding collisions. Human trajectories emerge as crucial cues in Social Navigation, but they are partially observable from the robot's egocentric view and computationally complex to process.
-              We propose the first Social Dynamics Adaptation model (SDA) based on the robot's state-action history to infer the social dynamics. We propose a two-stage Reinforcement Learning framework: the first learns to encode the human trajectories into social dynamics and learns a motion policy conditioned on this encoded information, the current status, and the previous action. Here, the trajectories are fully visible, i.e., assumed as privileged information. In the second stage, the trained policy operates without direct access to trajectories. Instead, the model infers the social dynamics solely from the history of previous actions and statuses in real-time. Tested on the novel Habitat 3.0 platform, SDA sets a novel state of the art (SoA) performance in finding and following humans.},
-      bibtex_show = true
+      booktitle={International Conference on Pattern Recognition (ICPR)},
+      url={https://arxiv.org/abs/2408.09424}, 
+      bibtex_show = true,
+      abstract={Event cameras, known for low-latency operation and superior performance in challenging lighting conditions, are suitable for sensitive computer vision tasks such as semantic segmentation in autonomous driving. However, challenges arise due to limited event-based data and the absence of large-scale segmentation benchmarks. Current works are confined to closed-set semantic segmentation, limiting their adaptability to other applications. In this paper, we introduce OVOSE, the first Open-Vocabulary Semantic Segmentation algorithm for Event cameras. OVOSE leverages synthetic event data and knowledge distillation from a pre-trained image-based foundation model to an event-based counterpart, effectively preserving spatial context and transferring open-vocabulary semantic segmentation capabilities. We evaluate the performance of OVOSE on two driving semantic segmentation datasets DDD17, and DSEC-Semantic, comparing it with existing conventional image open-vocabulary models adapted for event-based data. Similarly, we compare OVOSE with state-of-the-art methods designed for closed-set settings in unsupervised domain adaptation for event-based semantic segmentation. OVOSE demonstrates superior performance, showcasing its potential for real-world applications}
 }
 
+@inproceedings{mandica2024hyperboliclearningmultimodallarge,
+      title={Hyperbolic Learning with Multimodal Large Language Models}, 
+      author={Paolo Mandica and Luca Franco and Konstantinos Kallidromitis and Suzanne Petryk and Fabio Galasso},
+      year={2024},
+      booktitle={European Conference on Computer Vision (ECCV) workshops},
+      url={https://arxiv.org/abs/2408.05097}, 
+      abstract={Hyperbolic embeddings have demonstrated their effectiveness in capturing measures of uncertainty and hierarchical relationships across various deep-learning tasks, including image segmentation and active learning. However, their application in modern vision-language models (VLMs) has been limited. A notable exception is MERU, which leverages the hierarchical properties of hyperbolic space in the CLIP ViT-large model, consisting of hundreds of millions parameters. In our work, we address the challenges of scaling multi-modal hyperbolic models by orders of magnitude in terms of parameters (billions) and training complexity using the BLIP-2 architecture. Although hyperbolic embeddings offer potential insights into uncertainty not present in Euclidean embeddings, our analysis reveals that scaling these models is particularly difficult. We propose a novel training strategy for a hyperbolic version of BLIP-2, which allows to achieve comparable performance to its Euclidean counterpart, while maintaining stability throughout the training process and showing a meaningful indication of uncertainty with each embedding.
+      },
+      bibtex_show = true
+}
 
 @inproceedings{sampieri2024lengthawaremotionsynthesislatent,
   title={Length-Aware Motion Synthesis via Latent Diffusion},
@@ -45,6 +51,55 @@ We introduce the problem of generating length-aware 3D human motion sequences fr
   url= {https://arxiv.org/abs/2407.11532},
   bibtex_show = true
 }
+
+@article{damely24,
+ 
+  author = {Di Melendugno, Guido Maria D'Amely and Flaborea, Alessandro and Mettes, Pascal and Galasso, Fabio},
+  
+  keywords = {Robotics (cs.RO); Computer Vision and Pattern Recognition (cs.CV)},
+  
+  title = {Hyp2Nav: Hyperbolic Planning and Curiosity for Crowd Navigation},
+  journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+ 
+  year = {2024},
+  arxiv = {2407.13567},
+  bibtex_show = true,
+  abstract = {Autonomous robots are increasingly becoming a strong fixture in social environments. Effective crowd navigation requires not only safe yet fast planning, but should also enable interpretability and computational efficiency for working in real-time on embedded devices. In this work, we advocate for hyperbolic learning to enable crowd navigation and we introduce Hyp2Nav. Different from conventional reinforcement learning-based crowd navigation methods, Hyp2Nav leverages the intrinsic properties of hyperbolic geometry to better encode the hierarchical nature of decision-making processes in navigation tasks. We propose a hyperbolic policy model and a hyperbolic curiosity module that results in effective social navigation, best success rates, and returns across multiple simulation settings, using up to 6 times fewer parameters than competitor state-of-the-art models. With our approach, it becomes even possible to obtain policies that work in 2-dimensional embedding spaces, opening up new possibilities for low-resource crowd navigation and model interpretability. Insightfully, the internal hyperbolic representation of Hyp2Nav correlates with how much attention the robot pays to the surrounding crowds, e.g. due to multiple people occluding its pathway or to a few of them showing colliding plans, rather than to its own planned route.}
+}
+
+@article{pappa2024modipotexttomotionalignmentaifeedbackdriven,
+      title={MoDiPO: text-to-motion alignment via AI-feedback-driven Direct Preference Optimization}, 
+      author={Massimiliano Pappa and Luca Collorone and Giovanni Ficarra and Indro Spinelli and Fabio Galasso},
+      year={2024},
+      eprint={2405.03803},
+      archivePrefix={arXiv},
+      journal={arXiv preprint arXiv:2404.11327},
+      url={https://arxiv.org/abs/2405.03803},
+      arxiv = {2404.11327},
+      primaryClass={cs.CV},
+      abstract={Diffusion Models have revolutionized the field of human motion generation by offering exceptional generation quality and fine-grained controllability through natural language conditioning. Their inherent stochasticity, that is the ability to generate various outputs from a single input, is key to their success. However, this diversity should not be unrestricted, as it may lead to unlikely generations. Instead, it should be confined within the boundaries of text-aligned and realistic generations. To address this issue, we propose MoDiPO (Motion Diffusion DPO), a novel methodology that leverages Direct Preference Optimization (DPO) to align text-to-motion models. We streamline the laborious and expensive process of gathering human preferences needed in DPO by leveraging AI feedback instead. This enables us to experiment with novel DPO strategies, using both online and offline generated motion-preference pairs. To foster future research we contribute with a motion-preference dataset which we dub Pick-a-Move. We demonstrate, both qualitatively and quantitatively, that our proposed method yields significantly more realistic motions. In particular, MoDiPO substantially improves Frechet Inception Distance (FID) while retaining the same RPrecision and Multi-Modality performances.
+      },
+      bibtex_show = true
+}
+
+
+@article{scofano2024followinghumanthreadsocial,
+      title={Following the Human Thread in Social Navigation}, 
+      author={Luca Scofano and Alessio Sampieri and Tommaso Campari and Valentino Sacco and Indro Spinelli and Lamberto Ballan and Fabio Galasso},
+      year={2024},
+      eprint={2404.11327},
+      archivePrefix={arXiv},
+      journal={arXiv preprint arXiv:2404.11327},
+      arxiv = {2404.11327},
+      primaryClass={cs.RO},
+      abstract={The success of collaboration between humans and robots in shared environments relies on the robot's real-time adaptation to human motion. Specifically, in Social Navigation, the agent should be close enough to assist but ready to back up to let the human move freely, avoiding collisions. Human trajectories emerge as crucial cues in Social Navigation, but they are partially observable from the robot's egocentric view and computationally complex to process.
+              We propose the first Social Dynamics Adaptation model (SDA) based on the robot's state-action history to infer the social dynamics. We propose a two-stage Reinforcement Learning framework: the first learns to encode the human trajectories into social dynamics and learns a motion policy conditioned on this encoded information, the current status, and the previous action. Here, the trajectories are fully visible, i.e., assumed as privileged information. In the second stage, the trained policy operates without direct access to trajectories. Instead, the model infers the social dynamics solely from the history of previous actions and statuses in real-time. Tested on the novel Habitat 3.0 platform, SDA sets a novel state of the art (SoA) performance in finding and following humans.},
+      bibtex_show = true
+}
+
+
+
+
 
 
 
@@ -66,20 +121,7 @@ We introduce the problem of generating length-aware 3D human motion sequences fr
 
 
 
-@article{damely24,
- 
-  author = {Di Melendugno, Guido Maria D'Amely and Flaborea, Alessandro and Mettes, Pascal and Galasso, Fabio},
-  
-  keywords = {Robotics (cs.RO); Computer Vision and Pattern Recognition (cs.CV)},
-  
-  title = {Hyp2Nav: Hyperbolic Planning and Curiosity for Crowd Navigation},
-  journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
- 
-  year = {2024},
-  arxiv = {2407.13567},
-  bibtex_show = true,
-  abstract = {Autonomous robots are increasingly becoming a strong fixture in social environments. Effective crowd navigation requires not only safe yet fast planning, but should also enable interpretability and computational efficiency for working in real-time on embedded devices. In this work, we advocate for hyperbolic learning to enable crowd navigation and we introduce Hyp2Nav. Different from conventional reinforcement learning-based crowd navigation methods, Hyp2Nav leverages the intrinsic properties of hyperbolic geometry to better encode the hierarchical nature of decision-making processes in navigation tasks. We propose a hyperbolic policy model and a hyperbolic curiosity module that results in effective social navigation, best success rates, and returns across multiple simulation settings, using up to 6 times fewer parameters than competitor state-of-the-art models. With our approach, it becomes even possible to obtain policies that work in 2-dimensional embedding spaces, opening up new possibilities for low-resource crowd navigation and model interpretability. Insightfully, the internal hyperbolic representation of Hyp2Nav correlates with how much attention the robot pays to the surrounding crowds, e.g. due to multiple people occluding its pathway or to a few of them showing colliding plans, rather than to its own planned route.}
-}
+
 
 
 

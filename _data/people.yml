@@ -2,6 +2,7 @@
   image: \assets\img\people\fab_pic.png # do not change
   name: Fabio Galasso
   status: Head of the lab & Associate Professor
+  category: "Faculty"
 
   social:
     webpage: https://fgalasso.bitbucket.io/
@@ -50,6 +51,7 @@
   image: \assets\img\people\indro.png  # do not change
   name: Indro Spinelli
   status: Assistant Professor
+  category: "Faculty"
 
   social:
     webpage: https://spindro.github.io/
@@ -75,6 +77,7 @@
   image: \assets\img\people\guido.png  # do not change
   name: Guido Maria D'Amely di Melendugno, Ph.D.
   status: 
+  category: "Alumni"
 
   social:
     webpage: 
@@ -100,6 +103,7 @@
   image: \assets\img\people\aleflabo.png
   name: Alessandro Flaborea, Ph.D.
   status: Now at ItalAI (italailabs.com)
+  category: "Alumni"
 
   social:
     webpage: https://aleflabo.github.io/
@@ -126,6 +130,7 @@
   image: \assets\img\people\lucaF.jpeg  # do not change
   name: Luca Franco, Ph.D.
   status: Now at ItalAI (italailabs.com)
+  category: "Alumni"
 
   social:
     webpage: 
@@ -153,6 +158,7 @@
   image: \assets\img\people\ram.jpg  # do not change
   name: Muhammad Rameez Ur Rahman, Ph.D.
   status: Now at Ca' Foscari University of Venice
+  category: "Alumni"
 
   social:
     webpage: 
@@ -176,6 +182,7 @@
   image: \assets\img\people\giovanni.jpg  # do not change
   name: Giovanni Ficarra
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage:
@@ -203,6 +210,7 @@
   image: \assets\img\people\laura.jpg  # do not change
   name: Laura Laurenti
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: 
@@ -229,6 +237,7 @@
   image: \assets\img\people\paolom.png
   name: Paolo Mandica
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: https://paolomandica.github.io/
@@ -254,6 +263,7 @@
   image: \assets\img\people\alessio.jpeg # do not change
   name: Alessio Sampieri
   status: Ph.D. Student
+  category: "Student"
 
   social:
     email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
@@ -280,6 +290,7 @@
   image: \assets\img\people\lucaS.jpg  # do not change
   name: Luca Scofano
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: https://l-scofano.github.io/
@@ -305,6 +316,7 @@
   image: \assets\img\people\lucaC.png # do not change
   name: Luca Collorone
   status: Ph.D. Student
+  category: "Student"
 
   social:
     Webpage:
@@ -332,6 +344,7 @@
   image: \assets\img\people\stefano.jpeg  # do not change
   name: Stefano D’Arrigo
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: https://phd.uniroma1.it/web/STEFANO-D'ARRIGO_nP1960500_IT.aspx
@@ -357,6 +370,7 @@
   image: \assets\img\people\edo.jpg  # do not change
   name: Edoardo De Matteis
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: #https://www.youtube.com/watch?v=bUcG7vd_7aQ
@@ -383,6 +397,7 @@
   image: \assets\img\people\max.jpg  # do not change
   name: Massimiliano Pappa
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: 
@@ -409,6 +424,7 @@
   image: \assets\img\people\danie.jpeg  # do not change
   name: Daniele Trappolini 
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: 
@@ -459,6 +475,7 @@
   image: \assets\img\people\matteo.jpeg  # do not change
   name: Matteo Gioia
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage:  https://matteogioia.github.io/ #https://www.youtube.com/watch?v=bUcG7vd_7aQ
@@ -485,6 +502,7 @@
   image: \assets\img\people\leo.jpg  # do not change
   name: Leonardo Plini
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: 
@@ -511,6 +529,7 @@
   image: \assets\img\people\valentino.jpeg  # do not change
   name: Valentino Sacco 
   status: Ph.D. Student
+  category: "Student"
 
   social:
     webpage: 
@@ -532,7 +551,105 @@
     instagram:
 
 
+- people:
+  image: \assets\img\people\aurora.jpeg  # do not change
+  name: Aurora Bassani  
+  status: Ph.D. Student
+  category: "Student"
 
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/aurora-bassani/
+    github: AuroraBassani
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+- people:
+  image: \assets\img\people\Simone.jpg  # do not change
+  name: Simone Facchiano  
+  status: Ph.D. Student
+  category: "Student"
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/simone-facchiano-7a1760264
+    github: simonefacchiano
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+- people:
+  image: \assets\img\people\AlessioP.jpeg  # do not change
+  name: Alessio Palma  
+  status: Ph.D. Student
+  category: "Student"
+
+  social:
+    webpage: 
+    orcid: 0009-0008-4332-9179
+    scholar: Y4bEfPYAAAAJ&hl
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/alessio-palma-647975321/
+    github: alesspalma
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: palm_alessio
+    youtube:
+    facebook:
+    instagram:
+
+- people:
+  image: \assets\img\people\LucaR.jfif  # do not change
+  name: Luca Romani  
+  status: Ph.D. Student
+  category: "Student"
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:   https://www.linkedin.com/in/luca-romani-523039251/
+    github: LucaRomani98
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
 
 
 

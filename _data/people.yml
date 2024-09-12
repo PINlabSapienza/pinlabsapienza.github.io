@@ -602,6 +602,31 @@
     instagram:
 
 - people:
+  image: \assets\img\people\MatteoM.jpg  # do not change
+  name: Matteo Migliarini  
+  status: Ph.D. Student
+  category: "Student"
+
+  social:
+    webpage: https://mamiglia.github.io/
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/matteo-migliarini/
+    github: Mamiglia
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
+- people:
   image: \assets\img\people\AlessioP.jpeg  # do not change
   name: Alessio Palma  
   status: Ph.D. Student

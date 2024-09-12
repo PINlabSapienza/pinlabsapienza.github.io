@@ -76,8 +76,8 @@
 - people:
   image: \assets\img\people\guido.png  # do not change
   name: Guido Maria D'Amely di Melendugno, Ph.D.
-  status: 
-  category: "Alumni"
+  status: Post-Doc Research Associate
+  category: "Senior"
 
   social:
     webpage: 
@@ -102,8 +102,8 @@
 - people:
   image: \assets\img\people\aleflabo.png
   name: Alessandro Flaborea, Ph.D.
-  status: Now at ItalAI (italailabs.com)
-  category: "Alumni"
+  status: Start-up'er at ItalAI
+  category: "Senior"
 
   social:
     webpage: https://aleflabo.github.io/
@@ -129,8 +129,8 @@
 - people:
   image: \assets\img\people\lucaF.jpeg  # do not change
   name: Luca Franco, Ph.D.
-  status: Now at ItalAI (italailabs.com)
-  category: "Alumni"
+  status: Manager at ItalAI
+  category: "Senior"
 
   social:
     webpage: 
@@ -157,7 +157,7 @@
 - people:
   image: \assets\img\people\ram.jpg  # do not change
   name: Muhammad Rameez Ur Rahman, Ph.D.
-  status: Now at Ca' Foscari University of Venice
+  status: Post-Doc Research Associate at Ca' Foscari University of Venice
   category: "Alumni"
 
   social:

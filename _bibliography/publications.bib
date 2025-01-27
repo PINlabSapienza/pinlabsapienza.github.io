@@ -14,6 +14,52 @@ References
 %latex_src   = {https://www.google.com},
 
 
+@inproceedings{scofano2024followinghumanthreadsocial,
+      title={Following the Human Thread in Social Navigation}, 
+      author={Luca Scofano and Alessio Sampieri and Tommaso Campari and Valentino Sacco and Indro Spinelli and Lamberto Ballan and Fabio Galasso},
+      year={2025},
+      url={https://arxiv.org/abs/2404.11327}, 
+      arxiv = {2404.11327},
+      abstract={The success of collaboration between humans and robots in shared environments relies on the robot's real-time adaptation to human motion. Specifically, in Social Navigation, the agent should be close enough to assist but ready to back up to let the human move freely, avoiding collisions. Human trajectories emerge as crucial cues in Social Navigation, but they are partially observable from the robot's egocentric view and computationally complex to process.
+              We propose the first Social Dynamics Adaptation model (SDA) based on the robot's state-action history to infer the social dynamics. We propose a two-stage Reinforcement Learning framework: the first learns to encode the human trajectories into social dynamics and learns a motion policy conditioned on this encoded information, the current status, and the previous action. Here, the trajectories are fully visible, i.e., assumed as privileged information. In the second stage, the trained policy operates without direct access to trajectories. Instead, the model infers the social dynamics solely from the history of previous actions and statuses in real-time. Tested on the novel Habitat 3.0 platform, SDA sets a novel state of the art (SoA) performance in finding and following humans.},
+      bibtex_show = true
+}
+
+
+@inproceedings{pal2024compositionalentailmentlearninghyperbolic,
+      title={Compositional Entailment Learning for Hyperbolic Vision-Language Models}, 
+      author={Avik Pal and Max van Spengler and Guido Maria D'Amely di Melendugno and Alessandro Flaborea and Fabio Galasso and Pascal Mettes},
+      year={2025},
+      booktitle={International Conference on Learning Representation},
+      url={https://arxiv.org/abs/2410.06912}, 
+      bibtex_show = true,
+      abstract={Image-text representation learning forms a cornerstone in vision-language models, where pairs of images and textual descriptions are contrastively aligned in a shared embedding space. Since visual and textual concepts are naturally hierarchical, recent work has shown that hyperbolic space can serve as a high-potential manifold to learn vision-language representation with strong downstream performance. In this work, for the first time we show how to fully leverage the innate hierarchical nature of hyperbolic embeddings by looking beyond individual image-text pairs. We propose Compositional Entailment Learning for hyperbolic vision-language models. The idea is that an image is not only described by a sentence but is itself a composition of multiple object boxes, each with their own textual description. Such information can be obtained freely by extracting nouns from sentences and using openly available localized grounding models. We show how to hierarchically organize images, image boxes, and their textual descriptions through contrastive and entailment-based objectives. Empirical evaluation on a hyperbolic vision-language model trained with millions of image-text pairs shows that the proposed compositional learning approach outperforms conventional Euclidean CLIP learning, as well as recent hyperbolic alternatives, with better zero-shot and retrieval generalization and clearly stronger hierarchical performance.
+}
+}
+
+
+@article{laurenti2024probing,
+  title={Probing the evolution of fault properties during the seismic cycle with deep learning},
+  author={Laurenti, Laura and Paoletti, Gabriele, and Tinti, Elisa and Galasso, Fabio and Collettini, Cristiano and Marone, Chris },
+  journal={Nature Communications},
+  year={2024},
+  bibtex_show = true,
+  url = {https://doi.org/10.1038/s41467-024-54153-w},
+  doi = {https://doi.org/10.1038/s41467-024-54153-w},
+  abstract = {We use seismic waves that pass through the hypocentral region of the 2016 M6.5 Norcia earthquake together with Deep Learning (DL) to distinguish between foreshocks, aftershocks and time-to-failure (TTF). Binary and N-class models defined by TTF correctly identify seismograms in test with > 90% accuracy. We use raw seismic records as input to a 7 layer CNN model to perform the classification. Here we show that DL models successfully distinguish seismic waves pre/post mainshock in accord with lab and theoretical expectations of progressive changes in crack density prior to abrupt change at failure and gradual postseismic recovery. Performance is lower for band-pass filtered seismograms (below 10 Hz) suggesting that DL models learn from the evolution of subtle changes in elastic wave attenuation. Tests to verify that our results indeed provide a proxy for fault properties included DL models trained with the wrong mainshock time and those using seismic waves far from the Norcia mainshock; both show degraded performance. Our results demonstrate that DL models have the potential to track the evolution of fault zone properties during the seismic cycle. If this result is generalizable it could improve earthquake early warning and seismic hazard analysis.},
+}
+
+@article{trappolini2024cold,
+  title={Cold Diffusion Model for Seismic Denoising},
+  author={Trappolini, Daniele and Laurenti, Laura and Poggiali, Giulio, and Tinti, Elisa and Galasso, Fabio and Alberto, Michelini and Marone, Chris },
+  journal={Journal of Geophysical Research: Machine Learning and Computation},
+  year={2024},
+  bibtex_show = true,
+  url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024JH000179},
+  doi = {https://doi.org/10.1029/2024JH000179},
+  abstract = {Abstract Seismic waves contain information about the earthquake source, the geologic structure they traverse, and many forms of noise. Separating the noise from the earthquake is a difficult task because optimal parameters for filtering noise typically vary with time and, if chosen inappropriately, may strongly alter the original seismic waveform. Diffusion models based on Deep Learning have demonstrated remarkable capabilities in restoring images and audio signals. However, those models assume a Gaussian distribution of noise, which is not the case for typical seismic noise. Motivated by the effectiveness of “cold” diffusion models in speech enhancement, medical anomaly detection, and image restoration, we present a cold variant for seismic data restoration. We describe the first Cold Diffusion Model for Seismic Denoising (CDiffSD), including key design aspects, model architecture, and noise handling. Using metrics to quantify the performance of CDiffSD models compared to previous works, we demonstrate that it provides a new standard in performance. CDiffSD significantly improved the Signal to Noise Ratio by about 18\% compared to previous models. It also enhanced Cross-correlation by 6\%, showing a better match between denoised and original signals. Moreover, testing revealed a 50\% increase in the recall of P-wave picks for seismic picking. Our work show that CDiffSD outperforms existing benchmarks, further underscoring its effectiveness in seismic data denoising and analysis. Additionally, the versatility of this model suggests its potential applicability across a range of tasks and domains, such as GNSS, Lab Acoustic Emission, and Distributed Acoustic Sensing data, offering promising avenues for further utilization.},
+}
+
 @inproceedings{rahman2024ovoseopenvocabularysemanticsegmentation,
       title={OVOSE: Open-Vocabulary Semantic Segmentation in Event-Based Cameras}, 
       author={Muhammad Rameez Ur Rahman and Jhony H. Giraldo and Indro Spinelli and Stéphane Lathuilière and Fabio Galasso},
@@ -81,28 +127,6 @@ We introduce the problem of generating length-aware 3D human motion sequences fr
       },
       bibtex_show = true
 }
-
-
-@article{scofano2024followinghumanthreadsocial,
-      title={Following the Human Thread in Social Navigation}, 
-      author={Luca Scofano and Alessio Sampieri and Tommaso Campari and Valentino Sacco and Indro Spinelli and Lamberto Ballan and Fabio Galasso},
-      year={2024},
-      eprint={2404.11327},
-      archivePrefix={arXiv},
-      journal={arXiv preprint arXiv:2404.11327},
-      arxiv = {2404.11327},
-      primaryClass={cs.RO},
-      abstract={The success of collaboration between humans and robots in shared environments relies on the robot's real-time adaptation to human motion. Specifically, in Social Navigation, the agent should be close enough to assist but ready to back up to let the human move freely, avoiding collisions. Human trajectories emerge as crucial cues in Social Navigation, but they are partially observable from the robot's egocentric view and computationally complex to process.
-              We propose the first Social Dynamics Adaptation model (SDA) based on the robot's state-action history to infer the social dynamics. We propose a two-stage Reinforcement Learning framework: the first learns to encode the human trajectories into social dynamics and learns a motion policy conditioned on this encoded information, the current status, and the previous action. Here, the trajectories are fully visible, i.e., assumed as privileged information. In the second stage, the trained policy operates without direct access to trajectories. Instead, the model infers the social dynamics solely from the history of previous actions and statuses in real-time. Tested on the novel Habitat 3.0 platform, SDA sets a novel state of the art (SoA) performance in finding and following humans.},
-      bibtex_show = true
-}
-
-
-
-
-
-
-
 
 
 
@@ -179,6 +203,16 @@ author={Scofano, Luca and Sampieri, Alessio and Re, Giuseppe and Almanza, Matteo
 bibtex_show = true,
 abstract = {Forecasting players in sports has grown in popularity due to the potential for a tactical advantage and the applicability of such research to multi-agent interaction systems. Team sports contain a significant social component that influences interactions between teammates and opponents. However, it still needs to be fully exploited. In this work, we hypothesize that each participant has a specific function in each action and that role-based interaction is critical for predicting players’ future moves. We create RolFor, a novel end-to-end model for Role-based Forecasting. RolFor uses a new module we developed called Ordering Neural Networks (OrderNN) to permute the order of the players such that each player is assigned to a latent role. The latent role is then modeled with a RoleGCN. Thanks to its graph representation, it provides a fully learnable adjacency matrix that captures the relationships between roles and is subsequently used to forecast the players’ future trajectories. Extensive experiments on a challenging NBA basketball dataset back up the importance of roles and justify our goal of modeling them using optimizable models. When an oracle provides roles, the proposed RolFor compares favorably to the current state-of-the-art (it ranks first in terms of ADE and second in terms of FDE errors). However, training the end-to-end RolFor incurs the issues of differentiability of permutation methods, which we experimentally review. Finally, this work restates differentiable ranking as a difficult open problem and its great potential in conjunction with graph-based interaction models.
 }
+}
+
+@misc{plini2024tipregochainthoughtincontext,
+      title={TI-PREGO: Chain of Thought and In-Context Learning for Online Mistake Detection in PRocedural EGOcentric Videos}, 
+      author={Leonardo Plini and Luca Scofano and Edoardo De Matteis and Guido Maria D'Amely di Melendugno and Alessandro Flaborea and Andrea Sanchietti and Giovanni Maria Farinella and Fabio Galasso and Antonino Furnari},
+      year={2024},
+      eprint={2411.02570},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.02570}, 
 }
 
 @InProceedings{scofano2023staged,

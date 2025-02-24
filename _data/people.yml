@@ -1,7 +1,7 @@
 - people:
   image: \assets\img\people\fab_pic.png # do not change
   name: Fabio Galasso
-  status: Head of the lab & Associate Professor
+  status: Head of the lab & Full Professor
   category: "Faculty"
 
   social:
@@ -152,6 +152,57 @@
     facebook:
     instagram: 
 
+- people:
+  image: \assets\img\people\alessio.jpeg # do not change
+  name: Alessio Sampieri, Ph.D.
+  status: Senior Researcher at ItalAI
+  category: "Senior"
+
+  social:
+    email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
+    orcid: 0000-0002-1432-7499
+    scholar: lzFb_ZUAAAAJ
+    publons: 
+    research_gate: 
+    dblp:  https://dblp.org/pid/304/2196.html # Full URL
+    semantic_scholar:  # Full URL
+    linkedin: https://www.linkedin.com/in/alessio-sampieri/  # Full URL 
+    github: AlessioSam
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: AlessioSampier1
+    youtube:
+    facebook: 
+    instagram: alessio.sampieri
+
+
+
+- people:
+  image: \assets\img\people\lucaS.jpg  # do not change
+  name: Luca Scofano, Ph.D.
+  status: Post-Doc Research Associate
+  category: "Senior"
+
+  social:
+    webpage: https://l-scofano.github.io/
+    orcid: 0000-0002-0392-7464
+    scholar: https://scholar.google.com/citations?user=2nLw-cgAAAAJ&hl=it&oi=ao
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/luca-scofano-229793139/
+    github: L-Scofano
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
 
 
 - people:
@@ -177,6 +228,59 @@
     youtube:
     facebook:
     Instagram:
+
+- people:
+  image: \assets\img\people\laura.jpg  # do not change
+  name: Laura Laurenti, Ph.D.
+  status: Post-Doc Research Associate at ETH Zurich
+  category: "Alumni"
+
+  social:
+    webpage: 
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/lauralaurenti/
+    github: lauralaurenti
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    Instagram:
+
+
+
+- people:
+  image: \assets\img\people\paolom.png
+  name: Paolo Mandica, Ph.D.
+  status: AI Research Scientist at Samsung
+  category: "Alumni"
+
+  social:
+    webpage: https://paolomandica.github.io/
+    orcid: 
+    scholar: https://scholar.google.com/citations?hl=en&user=rUZYZogAAAAJ
+    publons: 
+    research_gate: 
+    dblp:  # Full URL
+    semantic_scholar:  # Full URL
+    linkedin:  https://www.linkedin.com/in/paolo-mandica/ 
+    github: paolomandica
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    mastodon: 
+    twitter: 
+    youtube:
+    facebook:
+    instagram:
+
 
 - people:
   image: \assets\img\people\giovanni.jpg  # do not change
@@ -206,110 +310,8 @@
 
 
 
-- people:
-  image: \assets\img\people\laura.jpg  # do not change
-  name: Laura Laurenti
-  status: Ph.D. Student
-  category: "Student"
-
-  social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/lauralaurenti/
-    github: lauralaurenti
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: 
-    youtube:
-    facebook:
-    Instagram:
 
 
-
-- people:
-  image: \assets\img\people\paolom.png
-  name: Paolo Mandica
-  status: Ph.D. Student
-  category: "Student"
-
-  social:
-    webpage: https://paolomandica.github.io/
-    orcid: 
-    scholar: https://scholar.google.com/citations?hl=en&user=rUZYZogAAAAJ
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/paolo-mandica/ 
-    github: paolomandica
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: 
-    youtube:
-    facebook:
-    instagram:
-
-
-- people:
-  image: \assets\img\people\alessio.jpeg # do not change
-  name: Alessio Sampieri
-  status: Ph.D. Student
-  category: "Student"
-
-  social:
-    email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
-    orcid: 0000-0002-1432-7499
-    scholar: lzFb_ZUAAAAJ
-    publons: 
-    research_gate: 
-    dblp:  https://dblp.org/pid/304/2196.html # Full URL
-    semantic_scholar:  # Full URL
-    linkedin: https://www.linkedin.com/in/alessio-sampieri/  # Full URL 
-    github: AlessioSam
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: AlessioSampier1
-    youtube:
-    facebook: 
-    instagram: alessio.sampieri
-
-
-
-- people:
-  image: \assets\img\people\lucaS.jpg  # do not change
-  name: Luca Scofano
-  status: Ph.D. Student
-  category: "Student"
-
-  social:
-    webpage: https://l-scofano.github.io/
-    orcid: 0000-0002-0392-7464
-    scholar: https://scholar.google.com/citations?user=2nLw-cgAAAAJ&hl=it&oi=ao
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/luca-scofano-229793139/
-    github: L-Scofano
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    mastodon: 
-    twitter: 
-    youtube:
-    facebook:
-    instagram:
 
 
 - people:

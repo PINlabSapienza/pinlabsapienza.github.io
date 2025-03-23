@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: 
+baseurl:
 
 # Features Setting
 # Turn subpages on or off
@@ -44,7 +44,6 @@ theme_settings:
   presentation_text: "Computer vision and machine learning have great potential to endow machines/robots with the (visual) perception of the environment and the intelligence to reason about it, and take decisions. The field has thrived in the past three decades, and it stands now as one of the key technological ingredients for autonomous driving, unmanned drones, and human-robot-collaboration, as well as the pervasive novel asset for other fields of science, including earthquake and weather forecasting."
   presentation_text2: "Our lab is interested in fundamental research and innovation transfer on computer vision and machine learning. Our specific research interests include distributed and multi-agent intelligent systems, perception (detection, recognition, re-identification, forecasting), and general intelligence (reasoning, meta-learning, domain adaptation), within sustainable (low-power-consumption and constrained-computational-resource sensors and devices) and interpretable (interpretable and verifiable AI) frameworks."
 
-
 # Pagination
 # paginate: 5
 # paginate_path: "blog/page:num"
@@ -53,7 +52,7 @@ theme_settings:
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
+plugins: ["jekyll-paginate", "jekyll/scholar", "jekyll-seo-tag"]
 bootstrap:
   assets: true
 
@@ -68,7 +67,21 @@ scholar:
   sort_by: year,month
   order: descending,ascending
 
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [
+    abbr,
+    abstract,
+    arxiv,
+    bibtex_show,
+    html,
+    pdf,
+    selected,
+    supp,
+    blog,
+    code,
+    poster,
+    slides,
+    website,
+  ] # Filter out certain bibtex entry keywords used internally from the bib output
 
 academicons:
   version: "1.9.1"

@@ -13,15 +13,32 @@ References
 %website     = {https://www.google.com},
 %latex_src   = {https://www.google.com},
 
+@InProceedings{dematteis2025hmu,
+    author    = {De Matteis, Edoardo and Migliarini, Matteo and Sampieri, Alessio and Spinelli, Indro and Galasso, Fabio},
+    title     = {Human Motion Unlearning},
+    year      = {2025},
+    url       = {https://arxiv.org/abs/},
+    bibtex_show = true,
+    abstract = {We introduce the task of human motion unlearning to prevent the synthesis of toxic animations while preserving the general text-to-motion generative performance. Unlearning toxic motions is challenging as those can be generated from explicit text prompts and from implicit toxic combinations of safe motions (e.g., ``kicking" is ``loading and swinging a leg").
+    We propose the first motion unlearning benchmark by filtering toxic motions from the large and recent text-to-motion datasets of HumanML3D and Motion-X. We propose baselines, by adapting state-of-the-art image unlearning techniques to process spatio-temporal signals. Finally, we propose a novel motion unlearning model based on Latent Code Replacement, which we dub LCR. LCR is training-free and suitable to the discrete latent spaces of state-of-the-art text-to-motion diffusion models. LCR is simple and consistently outperforms baselines qualitatively and quantitatively.},
+}
 
 
-
+@InProceedings{Scofano_2025_WACV,
+    author    = {Scofano, Luca and Sampieri, Alessio and De Matteis, Edoardo and Spinelli, Indro and Galasso, Fabio},
+    title     = {Social EgoMesh Estimation},
+    booktitle = {Winter Conference on Applications of Computer Vision (WACV)},
+    year      = {2025},
+    url       = {https://arxiv.org/abs/2411.04598},
+    bibtex_show = true,
+    abstract = {Accurately estimating the 3D pose of the camera wearer in egocentric video sequences is crucial to modeling human behavior in virtual and augmented reality applications. The task presents unique challenges due to the limited visibility of the user's body caused by the front-facing camera mounted on their head. Recent research has explored the utilization of the scene and ego-motion but it has overlooked humans' interactive nature. We propose a novel framework for Social Egocentric Estimation of body MEshes (SEE-ME). Our approach is the first to estimate the wearer's mesh using only a latent probabilistic diffusion model which we condition on the scene and for the first time on the social wearer-interactee interactions. Our in depth study sheds light on when social interaction matters most for ego-mesh estimation: it quantifies the impact of interpersonal distance and gaze direction. Overall SEE-ME surpasses the current best technique reducing the pose estimation error (MPJPE) by 53%.},
+}
 
 @inproceedings{pal2024compositionalentailmentlearninghyperbolic,
       title={Compositional Entailment Learning for Hyperbolic Vision-Language Models}, 
       author={Avik Pal and Max van Spengler and Guido Maria D'Amely di Melendugno and Alessandro Flaborea and Fabio Galasso and Pascal Mettes},
       year={2025},
-      booktitle={International Conference on Learning Representation},
+      booktitle={International Conference on Learning Representation (ICLR)},
       url={https://arxiv.org/abs/2410.06912}, 
       bibtex_show = true,
       abstract={Image-text representation learning forms a cornerstone in vision-language models, where pairs of images and textual descriptions are contrastively aligned in a shared embedding space. Since visual and textual concepts are naturally hierarchical, recent work has shown that hyperbolic space can serve as a high-potential manifold to learn vision-language representation with strong downstream performance. In this work, for the first time we show how to fully leverage the innate hierarchical nature of hyperbolic embeddings by looking beyond individual image-text pairs. We propose Compositional Entailment Learning for hyperbolic vision-language models. The idea is that an image is not only described by a sentence but is itself a composition of multiple object boxes, each with their own textual description. Such information can be obtained freely by extracting nouns from sentences and using openly available localized grounding models. We show how to hierarchically organize images, image boxes, and their textual descriptions through contrastive and entailment-based objectives. Empirical evaluation on a hyperbolic vision-language model trained with millions of image-text pairs shows that the proposed compositional learning approach outperforms conventional Euclidean CLIP learning, as well as recent hyperbolic alternatives, with better zero-shot and retrieval generalization and clearly stronger hierarchical performance.
@@ -33,7 +50,7 @@ References
       author={Luca Scofano and Alessio Sampieri and Tommaso Campari and Valentino Sacco and Indro Spinelli and Lamberto Ballan and Fabio Galasso},
       year={2025},
       url={https://arxiv.org/abs/2404.11327}, 
-      booktitle={International Conference on Learning Representation},
+      booktitle={International Conference on Learning Representation (ICLR)},
       abstract={The success of collaboration between humans and robots in shared environments relies on the robot's real-time adaptation to human motion. Specifically, in Social Navigation, the agent should be close enough to assist but ready to back up to let the human move freely, avoiding collisions. Human trajectories emerge as crucial cues in Social Navigation, but they are partially observable from the robot's egocentric view and computationally complex to process.
               We propose the first Social Dynamics Adaptation model (SDA) based on the robot's state-action history to infer the social dynamics. We propose a two-stage Reinforcement Learning framework: the first learns to encode the human trajectories into social dynamics and learns a motion policy conditioned on this encoded information, the current status, and the previous action. Here, the trajectories are fully visible, i.e., assumed as privileged information. In the second stage, the trained policy operates without direct access to trajectories. Instead, the model infers the social dynamics solely from the history of previous actions and statuses in real-time. Tested on the novel Habitat 3.0 platform, SDA sets a novel state of the art (SoA) performance in finding and following humans.},
       bibtex_show = true

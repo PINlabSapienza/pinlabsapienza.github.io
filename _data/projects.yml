@@ -1,7 +1,47 @@
 - project:
-    title: Staged Contact-Aware Global Human Motion Forecasting 
+    title: Human Motion Unlearning
+    authors: Edoardo De Matteis, Matteo Migliarini, Alessio Sampieri, Indro Spinelli, Fabio Galasso
+    event: # preprint
+    date: 2025
+    image:
+      path: "hmu/teaser.png" # path: assets/img/projects/
+      alt: "Pictorial of the model"
+    webpage: https://www.pinlab.org/hmu
+
+- project:
+    title: Social EgoMesh Estimation
+    authors: Luca Scofano, Alessio Sampieri, Edoardo De Matteis, Indro Spinelli, Fabio Galasso
+    event: WACV 2025
+    date: 2025
+    image:
+      path: "seeme/teaser.jpg" # path: assets/img/projects/
+      alt: "Pictorial of the model"
+    webpage: https://www.pinlab.org/seeme
+
+- project:
+    title: Length-Aware Motion Synthesis via Latent Diffusion
+    authors: Alessio Sampieri, Alessio Palma, Indro Spinelli, Fabio Galasso
+    event: ECCV 2024
+    date: 2024
+    image:
+      path: "ladiff/teaser.png" # path: assets/img/projects/
+      alt: "Pictorial of the model"
+    webpage: https://www.pinlab.org/ladiff
+
+- project:
+    title: "PREGO: online mistake detection in PRocedural EGOcentric Videos"
+    authors: Alessandro Flaborea, Guido Maria D'Amely Di Melendugno, Leonardo Plini, Luca Scofano, Edoardo De Matteis, Antonino Furnari, Giovanni Maria Farinella, Fabio Galasso
+    event: CVPR 2024
+    date: 2024
+    image:
+      path: "prego/teaser.png" # path: assets/img/projects/
+      alt: "Pictorial of the model"
+    webpage: https://www.pinlab.org/prego
+
+- project:
+    title: Staged Contact-Aware Global Human Motion Forecasting
     authors: Luca Scofano,  Alessio Sampieri,  Elisabeth Schiele,  Edoardo De Matteis,  Laura Leal-Taixé,  and Fabio Galasso
-    event: BMVC 2023  
+    event: BMVC 2023
     date: 2023
     image:
       path: "stag/teaser.png" # path: assets/project/
@@ -9,9 +49,9 @@
     webpage: https://www.pinlab.org/stag
 
 - project:
-    title: Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection 
+    title: Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection
     authors: Alessandro Flaborea, Luca Collorone, Guido D'Amely, Stefano D'Arrigo, Bardh Prenkaj and Fabio Galasso
-    event: ICCV 2023  
+    event: ICCV 2023
     date: 2023
     image:
       path: "mocodad/mocodad.png" # path: assets/project/
@@ -19,7 +59,7 @@
     webpage: https://www.pinlab.org/mocodad
 
 - project:
-    title: Hyperbolic Active Learning for Semantic Segmentation under Domain Shift 
+    title: Hyperbolic Active Learning for Semantic Segmentation under Domain Shift
     authors: Luca Franco, Paolo Mandica, Konstantinos Kallidromitis, Yu-Teng Li, Devin Guillory and Fabio Galasso
     date: 2023
     image:
@@ -28,19 +68,19 @@
     webpage: https://www.pinlab.org/halo
 
 - project:
-    title: Best Practices for 2-Body Pose Forecasting 
+    title: Best Practices for 2-Body Pose Forecasting
     authors: Muhammad Rameez Ur Rahman*,  Luca Scofano*,  Edoardo De Matteis,  Alessandro Flaborea,  Alessio Sampieri,  and Fabio Galasso
-    event: CVPR 2023 Precognition Workshop 
+    event: CVPR 2023 Precognition Workshop
     date: 2023
     image:
       path: "2body/model_ext.png" # path: assets/project/
       alt: "Teaser of the paper"
     webpage: https://www.pinlab.org/bestpractices2body
-    
+
 - project:
-    title: Are we certain it's anomalous? 
+    title: Are we certain it's anomalous?
     authors: Alessandro Flaborea, Bardh Prenkaj, Bharti Munjal, Marco Aurelio Sterpa, Dario Aragona, Luca Podo and Fabio Galasso
-    event: CVPR 2023 Visual Anomaly and Novelty Detection (VAND) Workshop 
+    event: CVPR 2023 Visual Anomaly and Novelty Detection (VAND) Workshop
     date: 2023
     image:
       path: "hypad/teaser_hypad.png" # path: assets/project/
@@ -48,7 +88,7 @@
     webpage: https://www.pinlab.org/hypad
 
 - project:
-    title: About latent roles in forecasting players in team sports 
+    title: About latent roles in forecasting players in team sports
     authors: Luca Scofano,  Alessio Sampieri,  Giuseppe Re,  Matteo Almanza,  Alessandro Panconesi,  and Fabio Galasso
     event: Neural Processing Letters
     date: 2024
@@ -56,14 +96,9 @@
       path: "nba/teaser.png" # path: assets/project/
       alt: "Teaser of the paper"
     webpage: https://www.pinlab.org/aboutlatentroles
-
-
-
-
-
 # - project :
-#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
 #     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
 #     image:
 #       path: "portfolio.png" # path: assets/project/
@@ -85,14 +120,14 @@
 #             path: home.png
 #             alt: "A screenshot of the blog page"
 #           description: <li>Responsive Layout</li>
-#             <li>Tags</li> 
+#             <li>Tags</li>
 #             <li>Pagination</li>
 #         - title: 3. Tags Page
 #           image:
 #             path: tags.png
 #             alt: "A screenshot of the tags page"
-#           description: <li>Responsive Layout</li> 
-#             <li>Tags</li> 
+#           description: <li>Responsive Layout</li>
+#             <li>Tags</li>
 
 # - project:
 #     url:  # Full URL
@@ -100,4 +135,4 @@
 #     date: 06/2019 &ndash; Developing
 #     title: Dummy project
 #     summary: This is a Dummy
-#     description:  
+#     description:

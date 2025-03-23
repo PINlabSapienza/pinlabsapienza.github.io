@@ -8,16 +8,16 @@
     webpage: https://fgalasso.bitbucket.io/
     orcid: 0000-0003-1875-7813
     scholar: 2gSuGBEAAAAJ
-    publons: 
+    publons:
     research_gate: Fabio-Galasso-2137045840
-    dblp:  https://dblp.org/pid/48/3897.html
-    semantic_scholar:  https://www.semanticscholar.org/author/Fabio-Galasso/1787725
-    linkedin: https://www.linkedin.com/in/fabio-galasso-61141b32 
+    dblp: https://dblp.org/pid/48/3897.html
+    semantic_scholar: https://www.semanticscholar.org/author/Fabio-Galasso/1787725
+    linkedin: https://www.linkedin.com/in/fabio-galasso-61141b32
     github: fgalasso
     gitlab: fgalasso
     bitbucket: fgalasso
     google_plus:
-    mastodon: 
+    mastodon:
     twitter: GalassoFab10
     youtube:
     facebook:
@@ -29,26 +29,26 @@
 #   status: Ph.D. Student
 
 #   social:
-#     webpage: 
-#     orcid: 
-#     scholar: 
-#     publons: 
-#     research_gate: 
+#     webpage:
+#     orcid:
+#     scholar:
+#     publons:
+#     research_gate:
 #     dblp:  # Full URL
 #     semantic_scholar:  # Full URL
-#     linkedin:  
+#     linkedin:
 #     github:
-#     gitlab: 
-#     bitbucket: 
+#     gitlab:
+#     bitbucket:
 #     google_plus:
-#     mastodon: 
-#     twitter: 
+#     mastodon:
+#     twitter:
 #     youtube:
 #     facebook:
 #     instagram:
 
 - people:
-  image: \assets\img\people\indro.png  # do not change
+  image: \assets\img\people\indro.png # do not change
   name: Indro Spinelli
   status: Assistant Professor
   category: "Faculty"
@@ -57,47 +57,45 @@
     webpage: https://spindro.github.io/
     orcid: 0000-0003-1963-3548
     scholar: 0glmB_UAAAAJ
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin: https://www.linkedin.com/in/indro-spinelli-770380123/  
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/indro-spinelli-770380123/
     github: spindro
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
+    mastodon:
     twitter: IndroSpinelli
     youtube:
     facebook:
     instagram:
 
-
 - people:
-  image: \assets\img\people\guido.png  # do not change
+  image: \assets\img\people\guido.png # do not change
   name: Guido Maria D'Amely di Melendugno, Ph.D.
   status: Post-Doc Research Associate
   category: "Senior"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin:
     github:
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
-
 
 - people:
   image: \assets\img\people\aleflabo.png
@@ -107,50 +105,49 @@
 
   social:
     webpage: https://aleflabo.github.io/
-    email:  # Full email address, e.g. "sample@google.com"
-    orcid: 
+    email: # Full email address, e.g. "sample@google.com"
+    orcid:
     scholar: HHDHIVoAAAAJ
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin: https://www.linkedin.com/in/alessandro-flaborea/ # Full URL 
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/alessandro-flaborea/ # Full URL
     github: aleflabo
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
+    mastodon:
     twitter: AlessandroFlabo
     youtube:
     facebook:
     instagram: aleflabo
 
-
 - people:
-  image: \assets\img\people\lucaF.jpeg  # do not change
+  image: \assets\img\people\lucaF.jpeg # do not change
   name: Luca Franco, Ph.D.
   status: Manager at ItalAI
   category: "Senior"
 
   social:
-    webpage: 
-    email:  luca.franco@uniroma1.it # Full email address, e.g. "sample@google.com"
+    webpage:
+    email: luca.franco@uniroma1.it # Full email address, e.g. "sample@google.com"
     orcid: 0000-0003-0107-6755
     scholar: c5jyrK4AAAAJ
-    publons: 
-    research_gate: 
-    dblp:  https://dblp.org/pid/304/2582 # Full URL
-    semantic_scholar:  # Full URL
-    linkedin: https://www.linkedin.com/in/luca-franco-968819196/ # Full URL 
+    publons:
+    research_gate:
+    dblp: https://dblp.org/pid/304/2582 # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/luca-franco-968819196/ # Full URL
     github: FraLuca
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
+    mastodon:
     twitter: FraLuca17
     youtube:
     facebook:
-    instagram: 
+    instagram:
 
 - people:
   image: \assets\img\people\alessio.jpeg # do not change
@@ -159,28 +156,26 @@
   category: "Senior"
 
   social:
-    email:  sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
+    email: sampieri@diag.uniroma1.it # Full email address, e.g. "sample@google.com"
     orcid: 0000-0002-1432-7499
     scholar: lzFb_ZUAAAAJ
-    publons: 
-    research_gate: 
-    dblp:  https://dblp.org/pid/304/2196.html # Full URL
-    semantic_scholar:  # Full URL
-    linkedin: https://www.linkedin.com/in/alessio-sampieri/  # Full URL 
+    publons:
+    research_gate:
+    dblp: https://dblp.org/pid/304/2196.html # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/alessio-sampieri/ # Full URL
     github: AlessioSam
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
+    mastodon:
     twitter: AlessioSampier1
     youtube:
-    facebook: 
+    facebook:
     instagram: alessio.sampieri
 
-
-
 - people:
-  image: \assets\img\people\lucaS.jpg  # do not change
+  image: \assets\img\people\lucaS.jpg # do not change
   name: Luca Scofano, Ph.D.
   status: Post-Doc Research Associate
   category: "Senior"
@@ -189,72 +184,69 @@
     webpage: https://l-scofano.github.io/
     orcid: 0000-0002-0392-7464
     scholar: https://scholar.google.com/citations?user=2nLw-cgAAAAJ&hl=it&oi=ao
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/luca-scofano-229793139/
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/luca-scofano-229793139/
     github: L-Scofano
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
-
 - people:
-  image: \assets\img\people\ram.jpg  # do not change
+  image: \assets\img\people\ram.jpg # do not change
   name: Muhammad Rameez Ur Rahman, Ph.D.
   status: Post-Doc Research Associate at Ca' Foscari University of Venice
   category: "Alumni"
 
   social:
-    webpage: 
+    webpage:
     orcid: 0000-0003-4425-5948
     scholar: LWFuG5sAAAAJ
-    publons: 
+    publons:
     research_gate: https://www.researchgate.net/profile/Muhammad-Rameez-Ur-Rahman-2
-    dblp:  # Full URL    Semantic_scholar:https://www.semanticscholar.org/author/Muhammad-Rameez-Ur-Rahman/104501424
-    linkedin:  https://www.linkedin.com/in/muhammad-rameez-ur-rahman-9a494a29/
+    dblp: # Full URL    Semantic_scholar:https://www.semanticscholar.org/author/Muhammad-Rameez-Ur-Rahman/104501424
+    linkedin: https://www.linkedin.com/in/muhammad-rameez-ur-rahman-9a494a29/
     github: ram95d
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     Instagram:
 
 - people:
-  image: \assets\img\people\laura.jpg  # do not change
+  image: \assets\img\people\laura.jpg # do not change
   name: Laura Laurenti, Ph.D.
   status: Post-Doc Research Associate at ETH Zurich
   category: "Alumni"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/lauralaurenti/
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/lauralaurenti/
     github: lauralaurenti
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     Instagram:
-
-
 
 - people:
   image: \assets\img\people\paolom.png
@@ -264,26 +256,25 @@
 
   social:
     webpage: https://paolomandica.github.io/
-    orcid: 
+    orcid:
     scholar: https://scholar.google.com/citations?hl=en&user=rUZYZogAAAAJ
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/paolo-mandica/ 
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/paolo-mandica/
     github: paolomandica
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
-
 - people:
-  image: \assets\img\people\giovanni.jpg  # do not change
+  image: \assets\img\people\giovanni.jpg # do not change
   name: Giovanni Ficarra
   status: Ph.D. Student
   category: "Student"
@@ -291,28 +282,22 @@
   social:
     webpage:
     Email: giovanni.ficarra@uniroma1.it
-    orcid: 
+    orcid:
     scholar:
-    publons: 
-    research_gate: 
-    dblp: 
-    semantic_scholar: 
-    linkedin: https://www.linkedin.com/in/giovannificarra/ 
+    publons:
+    research_gate:
+    dblp:
+    semantic_scholar:
+    linkedin: https://www.linkedin.com/in/giovannificarra/
     github: GioFic95
     gitlab: GioFic95
-    bitbucket: 
+    bitbucket:
     google_plus:
-    mastodon: 
+    mastodon:
     twitter: GioFic95
     youtube:
     facebook:
     instagram: GioFic95
-
-
-
-
-
-
 
 - people:
   image: \assets\img\people\lucaC.png # do not change
@@ -322,131 +307,124 @@
 
   social:
     Webpage:
-    email:  collorone@diag.uniroma1.it
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  
-    semantic_scholar:  
+    email: collorone@diag.uniroma1.it
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp:
+    semantic_scholar:
     linkedin:
     github: colloroneluca
-    gitlab:  
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter:    
+    mastodon:
+    twitter:
     youtube:
     facebook:
-    instagram: 
-
-
+    instagram:
 
 - people:
-  image: \assets\img\people\stefano.jpeg  # do not change
+  image: \assets\img\people\stefano.jpeg # do not change
   name: Stefano D’Arrigo
   status: Ph.D. Student
   category: "Student"
 
   social:
     webpage: https://phd.uniroma1.it/web/STEFANO-D'ARRIGO_nP1960500_IT.aspx
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/stefano-d-arrigo-6b084019a 
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/stefano-d-arrigo-6b084019a
     github: stdrr
     gitlab: stdrr
-    bitbucket: 
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
-
 - people:
-  image: \assets\img\people\edo.jpg  # do not change
+  image: \assets\img\people\edo.jpg # do not change
   name: Edoardo De Matteis
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: #https://www.youtube.com/watch?v=bUcG7vd_7aQ
-    orcid: 0000-0002-0796-035X
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/edoardo-de-matteis-7988821bb/ # Full URL 
+    webpage:
+    email: dematteis@di.uniroma1.it
+    orcid: # 0000-0002-0796-035X
+    scholar: Tjt7BFEAAAAJ
+    publons:
+    research_gate:
+    dblp: # https://dblp.org/pid/344/5617.html
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/edoardo-de-matteis-7988821bb/ # Full URL
     github: edodema
-    gitlab: edodema
-    bitbucket: edodema
+    gitlab: # edodema
+    bitbucket: # edodema
     google_plus:
-    mastodon: 
-    twitter: edmatteis
+    mastodon:
+    twitter: # edmatteis
     youtube:
     facebook:
-    instagram: 
-
-
+    instagram:
 
 - people:
-  image: \assets\img\people\max.jpg  # do not change
+  image: \assets\img\people\max.jpg # do not change
   name: Massimiliano Pappa
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin:
     github:
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
-
-
 - people:
-  image: \assets\img\people\danie.jpeg  # do not change
-  name: Daniele Trappolini 
+  image: \assets\img\people\danie.jpeg # do not change
+  name: Daniele Trappolini
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/daniele-trappolini-5789761b6/
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/daniele-trappolini-5789761b6/
     github: dan-trappolini
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
-
 
 # - people:
 #   image: \assets\img\people\stefano.gif  # do not change
@@ -454,230 +432,220 @@
 #   status: Ph.D. Student
 
 #   social:
-#     webpage: 
-#     orcid: 
-#     scholar: 
-#     publons: 
-#     research_gate: 
+#     webpage:
+#     orcid:
+#     scholar:
+#     publons:
+#     research_gate:
 #     dblp:  # Full URL
 #     semantic_scholar:  # Full URL
-#     linkedin:   
-#     github: 
-#     gitlab: 
-#     bitbucket: 
+#     linkedin:
+#     github:
+#     gitlab:
+#     bitbucket:
 #     google_plus:
-#     mastodon: 
-#     twitter: 
+#     mastodon:
+#     twitter:
 #     youtube:
 #     facebook:
 #     instagram:
 
-
 - people:
-  image: \assets\img\people\matteo.jpeg  # do not change
+  image: \assets\img\people\matteo.jpeg # do not change
   name: Matteo Gioia
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage:  https://matteogioia.github.io/ #https://www.youtube.com/watch?v=bUcG7vd_7aQ
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/matteo-gioia-dev/  # Full URL 
-    github: MatteoGioia 
-    gitlab: 
-    bitbucket: 
+    webpage: https://matteogioia.github.io/ #https://www.youtube.com/watch?v=bUcG7vd_7aQ
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/matteo-gioia-dev/ # Full URL
+    github: MatteoGioia
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
-    instagram: 
-
-
+    instagram:
 
 - people:
-  image: \assets\img\people\leo.jpg  # do not change
+  image: \assets\img\people\leo.jpg # do not change
   name: Leonardo Plini
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
     linkedin: https://www.linkedin.com/in/leonardo-plini-038379177/
-    github: PliniLeonardo 
-    gitlab: 
-    bitbucket: 
+    github: PliniLeonardo
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
-
-
 - people:
-  image: \assets\img\people\valentino.jpeg  # do not change
-  name: Valentino Sacco 
+  image: \assets\img\people\valentino.jpeg # do not change
+  name: Valentino Sacco
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  
-    github: 
-    gitlab: 
-    bitbucket: 
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin:
+    github:
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
-
 - people:
-  image: \assets\img\people\aurora.jpeg  # do not change
-  name: Aurora Bassani  
+  image: \assets\img\people\aurora.jpeg # do not change
+  name: Aurora Bassani
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/aurora-bassani/
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/aurora-bassani/
     github: AuroraBassani
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
 - people:
-  image: \assets\img\people\Simone.jpg  # do not change
-  name: Simone Facchiano  
+  image: \assets\img\people\Simone.jpg # do not change
+  name: Simone Facchiano
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/simone-facchiano-7a1760264
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/simone-facchiano-7a1760264
     github: simonefacchiano
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
 - people:
-  image: \assets\img\people\MatteoM.jpg  # do not change
-  name: Matteo Migliarini  
+  image: \assets\img\people\MatteoM.jpg # do not change
+  name: Matteo Migliarini
   status: Ph.D. Student
   category: "Student"
 
   social:
     webpage: https://mamiglia.github.io/
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/matteo-migliarini/
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/matteo-migliarini/
     github: Mamiglia
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
 
 - people:
-  image: \assets\img\people\AlessioP.jpeg  # do not change
-  name: Alessio Palma  
+  image: \assets\img\people\AlessioP.jpeg # do not change
+  name: Alessio Palma
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
+    webpage:
     orcid: 0009-0008-4332-9179
     scholar: Y4bEfPYAAAAJ&hl
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:  https://www.linkedin.com/in/alessio-palma-647975321/
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/alessio-palma-647975321/
     github: alesspalma
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
+    mastodon:
     twitter: palm_alessio
     youtube:
     facebook:
     instagram:
 
 - people:
-  image: \assets\img\people\LucaR.jfif  # do not change
-  name: Luca Romani  
+  image: \assets\img\people\LucaR.jfif # do not change
+  name: Luca Romani
   status: Ph.D. Student
   category: "Student"
 
   social:
-    webpage: 
-    orcid: 
-    scholar: 
-    publons: 
-    research_gate: 
-    dblp:  # Full URL
-    semantic_scholar:  # Full URL
-    linkedin:   https://www.linkedin.com/in/luca-romani-523039251/
+    webpage:
+    orcid:
+    scholar:
+    publons:
+    research_gate:
+    dblp: # Full URL
+    semantic_scholar: # Full URL
+    linkedin: https://www.linkedin.com/in/luca-romani-523039251/
     github: LucaRomani98
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
-    mastodon: 
-    twitter: 
+    mastodon:
+    twitter:
     youtube:
     facebook:
     instagram:
-
-
-
-

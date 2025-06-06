@@ -1,4 +1,14 @@
 - project:
+    title: Video Unlearning via Low-Rank Refusal Vector
+    authors: Simone Facchiano, Stefano Serravalle, Matteo Migliarini, Edoardo De Matteis, Alessio Sampieri, Andrea Pilzer, Emanuele Rodolà, Indro Spinelli, Luca Franco, Fabio Galasso
+    event: # preprint
+    date: 2025
+    image:
+      path: "video-unlearning/teaser.png" # path: assets/img/projects/
+      alt: "Pictorial of the model"
+    webpage: https://www.pinlab.org/video-unlearning
+
+- project:
     title: Human Motion Unlearning
     authors: Edoardo De Matteis, Matteo Migliarini, Alessio Sampieri, Indro Spinelli, Fabio Galasso
     event: # preprint

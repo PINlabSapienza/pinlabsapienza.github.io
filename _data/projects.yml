@@ -6,7 +6,8 @@
     image:
       path: "video-unlearning/teaser.png" # path: assets/img/projects/
       alt: "Pictorial of the model"
-    webpage: https://www.pinlab.org/video-unlearning
+    # webpage: https://www.pinlab.org/video-unlearning
+    webpage: video-unlearning
 
 - project:
     title: Human Motion Unlearning

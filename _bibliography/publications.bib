@@ -13,15 +13,16 @@ References
 %website     = {https://www.google.com},
 %latex_src   = {https://www.google.com},
 
-@misc{facchiano2025videounlearning,  
+@misc{facchiano2025videounlearninglowrankrefusal,
       title={Video Unlearning via Low-Rank Refusal Vector}, 
-      author={Edoardo De Matteis and Matteo Migliarini and Alessio Sampieri and Indro Spinelli and Fabio Galasso},
+      author={Simone Facchiano and Stefano Saravalle and Matteo Migliarini and Edoardo De Matteis and Alessio Sampieri and Andrea Pilzer and Emanuele Rodolà and Indro Spinelli and Luca Franco and Fabio Galasso},
       year={2025},
-      eprint={2503.18674},
+      eprint={2506.07891},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.18674},
-
+      url={https://arxiv.org/abs/2506.07891},
+      bibtex_show = true,
+      abstract={Video generative models democratize the creation of visual content through intuitive instruction following, but they also inherit the biases and harmful concepts embedded within their web-scale training data. This inheritance creates a significant risk, as users can readily generate undesirable and even illegal content. This work introduces the first unlearning technique tailored explicitly for video diffusion models to address this critical issue. Our method requires 5 multi-modal prompt pairs only. Each pair contains a “safe” and an “unsafe” example that differ only by the target concept. Averaging their per-layer latent differences produces a “refusal vector”, which, once subtracted from the model parameters, neutralizes the unsafe concept. We introduce a novel low-rank factorization approach on the covariance difference of embeddings that yields robust refusal vectors. This isolates the target concept while minimizing collateral unlearning of other semantics, thus preserving the visual quality of the generated video. Our method preserves the model’s generation quality while operating without retraining or access to the original training data. By embedding the refusal direction directly into the model’s weights, the suppression mechanism becomes inherently more robust against adversarial bypass attempts compared to surface-level input-output filters. In a thorough qualitative and quantitative evaluation, we show that we can neutralize a variety of harmful contents, including explicit nudity, graphic violence, copyrights, and trademarks.}
 }
 
 @misc{dematteis2025humanmotionunlearning,
@@ -32,6 +33,8 @@ References
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2503.18674}, 
+      bibtex_show = true,
+      abstract={We introduce the task of human motion unlearning to prevent the synthesis of toxic animations while preserving the general text-to-motion generative performance. Unlearning toxic motions is challenging as those can be generated from explicit text prompts and from implicit toxic combinations of safe motions (e.g., "kicking" is "loading and swinging a leg"). We propose the first motion unlearning benchmark by filtering toxic motions from the large and recent text-to-motion datasets of HumanML3D and Motion-X. We propose baselines, by adapting state-of-the-art image unlearning techniques to process spatio-temporal signals. Finally, we propose a novel motion unlearning model based on Latent Code Replacement, which we dub LCR. LCR is training-free and suitable to the discrete latent spaces of state-of-the-art text-to-motion diffusion models. LCR is simple and consistently outperforms baselines qualitatively and quantitatively.}
 }
 
 @InProceedings{Scofano_2025_WACV,
